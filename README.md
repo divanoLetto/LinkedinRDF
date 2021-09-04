@@ -4,7 +4,7 @@
 
 ---
 
-The project allows to extract data from the __Linkedin__ application through a Data Scraping phase and subsequently through them populate a structured __RDF graph__ starting from an ontology that summarizes the functional scheme of the famous working application.
+The project allows to extract data from the __Linkedin__ application through a __Data Scraping__ phase and subsequently through them populate a structured __RDF graph__ starting from an ontology that summarizes the functional scheme of the famous working application.
 
 To achieve this objective, the extracted data are converted into a structure compatible with an __Insert Query__ expressed in the __SPARQL__ language and are then inserted into the RDF model through the use of the TopBraidComposer application which allows the operation.
 
