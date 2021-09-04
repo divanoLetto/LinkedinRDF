@@ -23,6 +23,6 @@ This code was written in Python 3.8. The [__Selenium library__](https://www.sele
 In order to run the program execute the file *main.py*. 
 For the execution it is required that the google browser window used for the web scraping phase is not minimized for the entire duration of the application.
 
-In order to provide login credentials to Linkedin for viewing profiles, the following account has been made available: *bryansevendeadlysins@outlook.com*, password = *Arthur123*.
+In order to provide login credentials to Linkedin for viewing profiles, the following account has been made available: email = *bryansevendeadlysins@outlook.com*, password = *Arthur123*.
 
 In the event of a high number of accesses to the Linkedin account, it may be required to resolve a captcha in order to start the application correctly.
