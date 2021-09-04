@@ -26,3 +26,7 @@ For the execution it is required that the google browser window used for the web
 In order to provide login credentials to Linkedin for viewing profiles, the following account has been made available: email = *bryansevendeadlysins@outlook.com*, password = *Arthur123*.
 
 In the event of a high number of accesses to the Linkedin account, it may be required to resolve a captcha in order to start the application correctly.
+
+## Experiments
+
+The graph is generated starting from a set of LinkedIn profiles resulting from a Google search for a specific category of worker that the software takes as input. To test the software it was decided to start the analysis from the first 10 resulting profiles of *python programmers* and living near *Florence* (Google search: *site:linkedin.com/in/ AND "python developer" AND Firenze*). 
