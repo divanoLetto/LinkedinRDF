@@ -6,7 +6,7 @@
 
 The project allows to extract data from the __Linkedin__ application through a __Data Scraping__ phase and subsequently through them populate a structured __RDF graph__ starting from an ontology that summarizes the functional scheme of the famous working application.
 
-To achieve this objective, the extracted data are converted into a structure compatible with an __Insert Query__ expressed in the __SPARQL__ language and are then inserted into the RDF model through the use of the TopBraidComposer application which allows the operation.
+To achieve this objective, the extracted data are converted into a structure compatible with an __Insert Query__ expressed in the __SPARQL__ language and are then inserted into the RDF model through the use of the [__TopBraidComposer__](https://www.topquadrant.com/products/topbraid-composer/ "TopBraidComposer") application which allows the operation.
 
 The nature of this project is strictly academic and therefore the resulting RDF graph, also available at this [__Link__](http://lorenzomwebsite.altervista.org/DW/linkedin.owl "OWL file") as __.OWL__, is small in size. Despite this, it allows the use of SPARQL queries for statistical analysis purposes.
 
