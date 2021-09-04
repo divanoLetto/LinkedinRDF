@@ -16,7 +16,7 @@ The nature of this project is strictly academic and therefore the resulting RDF 
 
 ## Installation
 
-This code was written in Python 3.8. The Selenium library is required for the Data Scraping phase and it can be obtained through *pip install selenium*.
+This code was written in Python 3.8. The [__Selenium library__](https://www.selenium.dev/ "Selenium library") is required for the Data Scraping phase and it can be obtained through *pip install selenium*.
 
 ## Usage
 
