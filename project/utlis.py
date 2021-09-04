@@ -25,3 +25,9 @@ def splitDate(period):
 def obj_print(s):
     new_s = '"' + str(s) + '".'
     return new_s
+
+
+def print_and_write(s):
+    print(s)
+    with open('file', 'w') as output_file:
+        output_file.write(s)

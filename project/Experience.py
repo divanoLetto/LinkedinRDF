@@ -1,5 +1,5 @@
 from Rdf_thing import Rdf_thing
-from utlis import xstr, obj_print
+from utlis import xstr, obj_print, print_and_write
 from datetime import datetime
 
 
@@ -27,16 +27,16 @@ class Experience(Rdf_thing):
     def print_rdf_info(self):
         rdf_id = self.get_rdf_id()
         if self.role:
-            print(rdf_id + " lkn:role " + obj_print(self.role))
+            print_and_write(rdf_id + " lkn:role " + obj_print(self.role))
         if self.start_date:
-            print(rdf_id + " lkn:startDate " + obj_print(self.start_date))
+            print_and_write(rdf_id + " lkn:startDate " + obj_print(self.start_date))
         if self.end_date:
-            print(rdf_id + " lkn:endDate " + obj_print(self.end_date))
+            print_and_write(rdf_id + " lkn:endDate " + obj_print(self.end_date))
         if self.location:
-            print(rdf_id + " lkn:location " + obj_print(self.location))
+            print_and_write(rdf_id + " lkn:location " + obj_print(self.location))
         if self.place:
             self.place.print_rdf_info()
-            print(rdf_id + " lkn:happenedAt " + self.place.get_rdf_id() + ".")
+            print_and_write(rdf_id + " lkn:happenedAt " + self.place.get_rdf_id() + ".")
 
 
 class WorkingExperience(Experience):
@@ -45,7 +45,7 @@ class WorkingExperience(Experience):
 
     def print_rdf_info(self):
         rdf_id = self.get_rdf_id()
-        print(rdf_id + " rdf:type " + 'lkn:WorkingExperience.')
+        print_and_write(rdf_id + " rdf:type " + 'lkn:WorkingExperience.')
         super().print_rdf_info()
 
     def get_rdf_id(self):
@@ -58,7 +58,7 @@ class EducationExperience(Experience):
 
     def print_rdf_info(self):
         rdf_id = self.get_rdf_id()
-        print(rdf_id + " rdf:type " + 'lkn:EducationExperience.')
+        print_and_write(rdf_id + " rdf:type " + 'lkn:EducationExperience.')
         super().print_rdf_info()
 
     def get_rdf_id(self):

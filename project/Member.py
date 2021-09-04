@@ -1,5 +1,5 @@
 from Rdf_thing import Rdf_thing
-from utlis import xstr, obj_print
+from utlis import xstr, obj_print, print_and_write
 
 global_skills = []
 
@@ -51,29 +51,29 @@ class MyPerson(Member):
 
     def print_rdf_info(self):
         rdf_id = self.get_rdf_id()
-        print(rdf_id + " rdf:type " + "lkn:Person.")
+        print_and_write(rdf_id + " rdf:type " + "lkn:Person.")
         if self.first_name:
-            print(rdf_id + " lkn:firstName " + obj_print(self.first_name))
+            print_and_write(rdf_id + " lkn:firstName " + obj_print(self.first_name))
         if self.second_name:
-            print(rdf_id + " lkn:secondName " + obj_print(self.second_name))
+            print_and_write(rdf_id + " lkn:secondName " + obj_print(self.second_name))
         if self.location:
-            print(rdf_id + " lkn:location " + obj_print(self.location))
+            print_and_write(rdf_id + " lkn:location " + obj_print(self.location))
         if self.URL:
-            print(rdf_id + " lkn:URL " + obj_print(self.URL))
+            print_and_write(rdf_id + " lkn:URL " + obj_print(self.URL))
         if self.about:
-            print(rdf_id + " lkn:about " + obj_print(self.about))
+            print_and_write(rdf_id + " lkn:about " + obj_print(self.about))
         for exp in self.working_experiences:
             exp.print_rdf_info()
-            print(rdf_id + " lkn:hasWorkingExperience " + exp.get_rdf_id()+ ".")
+            print_and_write(rdf_id + " lkn:hasWorkingExperience " + exp.get_rdf_id()+ ".")
         for edu in self.education_experiences:
             edu.print_rdf_info()
-            print(rdf_id + " lkn:hasEducationExperience " + edu.get_rdf_id()+ ".")
+            print_and_write(rdf_id + " lkn:hasEducationExperience " + edu.get_rdf_id()+ ".")
         for skill in self.skills:
             skill.print_rdf_info()
-            print(rdf_id + " lkn:hasSkill " + skill.get_rdf_id()+ ".")
+            print_and_write(rdf_id + " lkn:hasSkill " + skill.get_rdf_id()+ ".")
         for interest in self.interests:
             interest.print_rdf_info()
-            print(rdf_id + " lkn:hasInterest " + interest.get_rdf_id()+ ".")
+            print_and_write(rdf_id + " lkn:hasInterest " + interest.get_rdf_id()+ ".")
 
 
 class Place(Member):
@@ -114,23 +114,23 @@ class Place(Member):
     def print_rdf_info(self):
         rdf_id = self.get_rdf_id()
         if self.website:
-            print(rdf_id + " lkn:website " + obj_print(self.website))
+            print_and_write(rdf_id + " lkn:website " + obj_print(self.website))
         if self.phone:
-            print(rdf_id + " lkn:phone " + obj_print(self.phone))
+            print_and_write(rdf_id + " lkn:phone " + obj_print(self.phone))
         if self.companySize:
-            print(rdf_id + " lkn:companySize " + obj_print(self.companySize))
+            print_and_write(rdf_id + " lkn:companySize " + obj_print(self.companySize))
         if self.about:
-            print(rdf_id + " lkn:about " + obj_print(self.about))
+            print_and_write(rdf_id + " lkn:about " + obj_print(self.about))
         if self.industry:
-            print(rdf_id + " lkn:industry " + obj_print(self.industry))
+            print_and_write(rdf_id + " lkn:industry " + obj_print(self.industry))
         if self.headquarter:
-            print(rdf_id + " lkn:headquarter " + obj_print(self.headquarter))
+            print_and_write(rdf_id + " lkn:headquarter " + obj_print(self.headquarter))
         if self.type:
-            print(rdf_id + " lkn:type " + obj_print(self.type))
+            print_and_write(rdf_id + " lkn:type " + obj_print(self.type))
         if self.founded:
-            print(rdf_id + " lkn:founded " + obj_print(self.founded))
+            print_and_write(rdf_id + " lkn:founded " + obj_print(self.founded))
         if self.speciality:
-            print(rdf_id + " lkn:speciality " + obj_print(self.speciality))
+            print_and_write(rdf_id + " lkn:speciality " + obj_print(self.speciality))
 
 
 class Company(Place):
@@ -139,15 +139,16 @@ class Company(Place):
 
     def print_rdf_info(self):
 
-        rdf_id = self.get_rdf_id()
         if self.placeName not in [s.placeName for s in global_companies]:
             global_companies.append(self)
-            print(rdf_id + " rdf:type " + "lkn:Company.")
-        if self.placeName:
-            print(rdf_id + " lkn:placeName " + obj_print(self.placeName))
-
-        super().print_rdf_info()
-
+            print_and_write(self.get_rdf_id() + " rdf:type " + "lkn:Company.")
+            if self.placeName:
+                print_and_write(self.get_rdf_id() + " lkn:placeName " + obj_print(self.placeName))
+            super().print_rdf_info()
+        else:
+            for company in global_companies:
+                if company.placeName == self.placeName:
+                    self.id = company.id
 
     def get_rdf_id(self):
         return 'lkn:company' + xstr(self.id)
@@ -158,15 +159,17 @@ class School(Place):
         super().__init__(id, url, about, place_name, website, phone, industry, companySize, headquarter, type, founded, speciality)
 
     def print_rdf_info(self):
-
-        rdf_id = self.get_rdf_id()
         if self.placeName not in [s.placeName for s in global_schools]:
             global_schools.append(self)
-            print(rdf_id + " rdf:type " + "lkn:School.")
-        if self.placeName:
-            print(rdf_id + " lkn:placeName " + obj_print(self.placeName))
+            print_and_write(self.get_rdf_id() + " rdf:type " + "lkn:School.")
+            if self.placeName:
+                print_and_write(self.get_rdf_id() + " lkn:placeName " + obj_print(self.placeName))
+            super().print_rdf_info()
+        else:
+            for school in global_schools:
+                if school.placeName == self.placeName:
+                    self.id = school.id
 
-        super().print_rdf_info()
 
     def get_rdf_id(self):
         return 'lkn:school' + xstr(self.id)

@@ -383,7 +383,6 @@ for link in linkedin_urls:
         elif "influencer" in interest[1]:
             next_implemetation = "Not implemented"
 
-    print('\n')
     this_person.print_rdf_info()
     print()
 
