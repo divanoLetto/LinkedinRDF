@@ -8,7 +8,7 @@ The project allows to extract data from the __Linkedin__ application through a D
 
 To achieve this objective, the extracted data are converted into a structure compatible with an __Insert Query__ expressed in the __SPARQL__ language and are then inserted into the RDF model through the use of the TopBraidComposer application which allows the operation.
 
-The nature of this project is strictly academic and therefore the resulting RDF graph, also available at the address, is small in size. Despite this, it allows the use of SPARQL queries for statistical analysis purposes.
+The nature of this project is strictly academic and therefore the resulting RDF graph, also available at this [*addres*](http://lorenzomwebsite.altervista.org/DW/linkedin.owl "OWL file") as __.OWL__, is small in size. Despite this, it allows the use of SPARQL queries for statistical analysis purposes.
 
 ![Ontology Schema](images/OntSchema.png "Ontology schema")
 
