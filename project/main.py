@@ -271,7 +271,7 @@ for link in linkedin_urls:
     for ex_li in experience_lis:
         ex_role, ex_company, ex_period, ex_location = "", "", "", ""
 
-        alternative_experience_divs = experience_lis.xpath('.//div[contains(@class,"pv-entity__company-summary-info")]')
+        alternative_experience_divs = ex_li.xpath('.//div[contains(@class,"pv-entity__company-summary-info")]')
         # Nel caso di lavori multipli a una singola azienda
         if len(alternative_experience_divs) > 0:
             for alt_ex_div in alternative_experience_divs:
@@ -280,8 +280,8 @@ for link in linkedin_urls:
                 ex_roles = ex_li.xpath('.//ul//li//h3//span')
                 for r in ex_roles[1::2]:
                     ex_role = ex_role + xstr(r.root.text) + " "
-                ex_place_span = ex_li.xpath('.//h4[contains(@class, "pv-entity__location")]/span')[1]
-                if ex_place_span and len(ex_place_span) > 1:
+                ex_place_span = ex_li.xpath('.//h4[contains(@class, "pv-entity__location")]/span')
+                if ex_place_span and len(ex_place_span):
                     ex_location = ex_place_span[1].root.text
         # Nel caso di un lavoro presso un'azienda
         else:
