@@ -30,3 +30,7 @@ In the event of a high number of accesses to the Linkedin account, it may be req
 ## Experiments
 
 The graph is generated starting from a set of LinkedIn profiles resulting from a Google search for a specific category of worker that the software takes as input. To test the software it was decided to start the analysis from the first 10 resulting profiles of *python programmers* and living near *Florence* (Google search: *"site:linkedin.com/in/ AND "python developer" AND Firenze"*). 
+
+### Limitations
+
+Currently the software manages a conspicuous if limited number of entities present in the Linkedin application. The management of *Linkedin, Influencer, Post and Video Groups* will be implemented in future updates. The outline of the complete ontology is already available at this address.
