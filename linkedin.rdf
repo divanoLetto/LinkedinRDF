@@ -71,6 +71,10 @@
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     <rdfs:domain rdf:resource="#Place"/>
   </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="URL">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="#Member"/>
+  </owl:DatatypeProperty>
   <owl:FunctionalProperty rdf:ID="founded">
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     <rdfs:domain rdf:resource="#Place"/>
@@ -177,19 +181,6 @@
         </linkedin:happenedAt>
       </linkedin:EducationExperience>
     </linkedin:hasEducationExperience>
-    <linkedin:hasInterest>
-      <linkedin:Company rdf:ID="company83">
-        <linkedin:headquarter>Pasadena, CA</linkedin:headquarter>
-        <linkedin:placeName>NASA Jet Propulsion Laboratory</linkedin:placeName>
-        <linkedin:founded>1936</linkedin:founded>
-        <linkedin:website>http://www.jpl.nasa.gov</linkedin:website>
-        <linkedin:about>Formed in 1936, the NASA Jet Propulsion Laboratory is a federally funded research and development center managed for NASA by the California Institute of Technology (Caltech.) JPL joined NASA as an FFRDC when the agency was founded in 1958.   JPL helped open the Space Age by developing America's first Earth-orbiting science satellite, creating the first successful interplanetary spacecraft, and sending robotic missions to the solar system.   Today JPL continues its world-leading innovation, implementing programs in planetary exploration, Earth science, space-based astronomy and technology development while applying its capabilities to technical and scientific problems of national significance.   Above all, we are explorers. At JPL we promote collaboration, innovation, integrity, and excellence in distinct academic areas. We turn ideas for science investigation into the reality of groundbreaking space missions, partnering with our strategic business teams to guide JPL into the future.   Explorers wanted.</linkedin:about>
-        <linkedin:type>Istruzione</linkedin:type>
-        <linkedin:companySize>5.001-10.000 dipendenti</linkedin:companySize>
-        <linkedin:speciality>robotic spacecraft, mars missions, deep space network, planetary science, earth science, solar system exploration, exoplanets, Asteroid watch and tracking, Juno Mission to Jupiter, unmanned spaceflight, Curiosity Rover, engineering, science, technology e software development</linkedin:speciality>
-        <linkedin:industry>Difesa e spazio</linkedin:industry>
-      </linkedin:Company>
-    </linkedin:hasInterest>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill192">
         <linkedin:skillName>TensorFlow</linkedin:skillName>
@@ -224,17 +215,17 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp43">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company26">
-            <linkedin:website>http://www.unifi.it/</linkedin:website>
+          <linkedin:Company rdf:ID="company5">
             <linkedin:companySize>5.001-10.000 dipendenti</linkedin:companySize>
-            <linkedin:headquarter>Florence, Tuscany</linkedin:headquarter>
-            <linkedin:about>The University of Florence is one of the largest and most productive public research systems in Italy. This result is related to the number of permanent and temporary researchers working in a wide range of disciplinary and scientific fields, and the numerous junior scientists in training. It is also due to an intensive participation in research programmes of national and international relevance, the significant scientific results achieved, and the financial flow from outside supporting activities of research and knowledge transfer. This combination of factors qualifies the Florentine institution as a modern research university, and accounts for its excellent ranking in national and international classifications.</linkedin:about>
             <linkedin:speciality>University</linkedin:speciality>
-            <linkedin:industry>Istruzione superiore</linkedin:industry>
+            <linkedin:placeName>Università degli Studi di Firenze</linkedin:placeName>
             <linkedin:founded>1321</linkedin:founded>
+            <linkedin:website>http://www.unifi.it/</linkedin:website>
             <linkedin:phone>3905527571 Il numero di telefono è 3905527571</linkedin:phone>
             <linkedin:type>Istruzione</linkedin:type>
-            <linkedin:placeName>Università degli Studi di Firenze</linkedin:placeName>
+            <linkedin:about>The University of Florence is one of the largest and most productive public research systems in Italy. This result is related to the number of permanent and temporary researchers working in a wide range of disciplinary and scientific fields, and the numerous junior scientists in training. It is also due to an intensive participation in research programmes of national and international relevance, the significant scientific results achieved, and the financial flow from outside supporting activities of research and knowledge transfer. This combination of factors qualifies the Florentine institution as a modern research university, and accounts for its excellent ranking in national and international classifications.</linkedin:about>
+            <linkedin:headquarter>Florence, Tuscany</linkedin:headquarter>
+            <linkedin:industry>Istruzione superiore</linkedin:industry>
           </linkedin:Company>
         </linkedin:happenedAt>
         <linkedin:location>Firenze, Italia</linkedin:location>
@@ -244,17 +235,31 @@
       </linkedin:WorkingExperience>
     </linkedin:hasWorkingExperience>
     <linkedin:firstName>Alessia</linkedin:firstName>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company85">
+        <linkedin:type>Istruzione</linkedin:type>
+        <linkedin:headquarter>Pasadena, CA</linkedin:headquarter>
+        <linkedin:placeName>NASA Jet Propulsion Laboratory</linkedin:placeName>
+        <linkedin:founded>1936</linkedin:founded>
+        <linkedin:website>http://www.jpl.nasa.gov</linkedin:website>
+        <linkedin:about>Formed in 1936, the NASA Jet Propulsion Laboratory is a federally funded research and development center managed for NASA by the California Institute of Technology (Caltech.) JPL joined NASA as an FFRDC when the agency was founded in 1958.   JPL helped open the Space Age by developing America's first Earth-orbiting science satellite, creating the first successful interplanetary spacecraft, and sending robotic missions to the solar system.   Today JPL continues its world-leading innovation, implementing programs in planetary exploration, Earth science, space-based astronomy and technology development while applying its capabilities to technical and scientific problems of national significance.   Above all, we are explorers. At JPL we promote collaboration, innovation, integrity, and excellence in distinct academic areas. We turn ideas for science investigation into the reality of groundbreaking space missions, partnering with our strategic business teams to guide JPL into the future.   Explorers wanted.</linkedin:about>
+        <linkedin:companySize>5.001-10.000 dipendenti</linkedin:companySize>
+        <linkedin:speciality>robotic spacecraft, mars missions, deep space network, planetary science, earth science, solar system exploration, exoplanets, Asteroid watch and tracking, Juno Mission to Jupiter, unmanned spaceflight, Curiosity Rover, engineering, science, technology e software development</linkedin:speciality>
+        <linkedin:industry>Difesa e spazio</linkedin:industry>
+      </linkedin:Company>
+    </linkedin:hasInterest>
     <linkedin:secondName>Tricomi</linkedin:secondName>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company82">
-        <linkedin:speciality>International Organisation, european union e Governmental Organisation</linkedin:speciality>
-        <linkedin:founded>1958</linkedin:founded>
+        <linkedin:speciality>Space, Science, Navigation, Earth Observation, Communications, Manned Space Flight, System Engineering, Innovative, Inspirational, Aspirational, Rockets, Materials, Astronomy, Simulation, System Engineering, Concurrent Engineering, Testing, Hardware, Software, Training, Information Technology, GNSS, Galileo, IT and Security e Cyber</linkedin:speciality>
+        <linkedin:about>The European Space Agency (ESA) is Europe’s gateway to space. Its mission is to shape the development of Europe’s space capability and ensure that investment in space continues to deliver benefits to the citizens of Europe and the world.   ESA is an international organisation with 22 Member States. By coordinating the financial and intellectual resources of its members, it can undertake programmes and activities far beyond the scope of any single European country.   ESA's 22 Member States are Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Luxembourg, the Netherlands, Norway, Poland, Portugal, Romania, Spain, Sweden, Switzerland and the United Kingdom.   Slovenia, Latvia and Lithuania are Associate Members. Canada takes part in some projects under a cooperation agreement.   Five other EU states have Cooperation Agreements with ESA: Bulgaria, Croatia, Cyprus, Malta and Slovakia.</linkedin:about>
+        <linkedin:placeName>European Space Agency - ESA</linkedin:placeName>
+        <linkedin:companySize>1.001-5.000 dipendenti</linkedin:companySize>
         <linkedin:type>Ente governativo</linkedin:type>
-        <linkedin:industry>Amministrazione governativa</linkedin:industry>
-        <linkedin:about>The Commission represents and upholds the interests of the EU as a whole, and is independent of national governments.  The European Commission prepares legislation for adoption by the Council (representing the member countries) and the Parliament (representing the citizens). It administers the budget and the policy programmes (agriculture, fisheries, research etc.) in cooperation with authorities in the member countries.   Visit http://www.europa.eu/ if you want to learn more about the EU, or call the free service number 00 800 6789 10 11 from anywhere in the EU, they speak all 24 official languages.  Disclaimer:  The European Commission is working to ensure that social networks respect the highest standards of data protection. All users of social networks should be particularly careful about how they disclose their personal information and about how it may be used by third parties and the social network themselves. The presence of the European Commission on LinkedIn does not mean that we endorse or in any way agree with the privacy policy or practices of this professional social media network. Read more about our social media policy: https://ec.europa.eu/info/social-media-use</linkedin:about>
-        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
-        <linkedin:website>https://ec.europa.eu/</linkedin:website>
-        <linkedin:placeName>European Commission</linkedin:placeName>
+        <linkedin:industry>Aviazione e aerospazio</linkedin:industry>
+        <linkedin:founded>1975</linkedin:founded>
+        <linkedin:website>http://www.esa.int</linkedin:website>
+        <linkedin:headquarter>Paris, Île-de-France</linkedin:headquarter>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill>
@@ -299,15 +304,26 @@
     </linkedin:hasSkill>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company84">
-        <linkedin:headquarter>Washington, DC</linkedin:headquarter>
-        <linkedin:type>Ente governativo</linkedin:type>
-        <linkedin:website>http://www.nasa.gov</linkedin:website>
+        <linkedin:speciality>International Organisation, european union e Governmental Organisation</linkedin:speciality>
         <linkedin:founded>1958</linkedin:founded>
-        <linkedin:industry>Aviazione e aerospazio</linkedin:industry>
-        <linkedin:speciality>Space, Aviation, Exploration, Aeronautics, Science, Engineering, Technology, Government, Robotics, Software e Hardware</linkedin:speciality>
+        <linkedin:type>Ente governativo</linkedin:type>
+        <linkedin:industry>Amministrazione governativa</linkedin:industry>
+        <linkedin:about>The Commission represents and upholds the interests of the EU as a whole, and is independent of national governments.  The European Commission prepares legislation for adoption by the Council (representing the member countries) and the Parliament (representing the citizens). It administers the budget and the policy programmes (agriculture, fisheries, research etc.) in cooperation with authorities in the member countries.   Visit http://www.europa.eu/ if you want to learn more about the EU, or call the free service number 00 800 6789 10 11 from anywhere in the EU, they speak all 24 official languages.  Disclaimer:  The European Commission is working to ensure that social networks respect the highest standards of data protection. All users of social networks should be particularly careful about how they disclose their personal information and about how it may be used by third parties and the social network themselves. The presence of the European Commission on LinkedIn does not mean that we endorse or in any way agree with the privacy policy or practices of this professional social media network. Read more about our social media policy: https://ec.europa.eu/info/social-media-use</linkedin:about>
         <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
-        <linkedin:about>For more than 60 years, NASA has been breaking barriers to achieve the seemingly impossible—from walking on the Moon to pushing the boundaries of human spaceflight farther than ever before. We work in space and around the world in laboratories and wind tunnels, on airfields and in control rooms to explore some of life’s fundamental mysteries: What’s out there in space? How do we get there? And what can we learn that will make life better here on Earth?  We are passionate professionals united by a common purpose: to pioneer the future in space exploration, scientific discovery and aeronautics research. Today, we continue NASA’s legacy of excellence and innovation through an unprecedented array of missions. We are developing the most advanced rockets and spacecraft ever designed, studying the Earth for answers to critical challenges facing our planet, improving the air transportation experience, and so much more.     Join us as we reach for new heights and reveal the unknown for the benefit of humanity.</linkedin:about>
-        <linkedin:placeName>NASA - National Aeronautics and Space Administration</linkedin:placeName>
+        <linkedin:website>https://ec.europa.eu/</linkedin:website>
+        <linkedin:placeName>European Commission</linkedin:placeName>
+      </linkedin:Company>
+    </linkedin:hasInterest>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company71">
+        <linkedin:speciality>e-Commerce, Retail, Operations e Internet</linkedin:speciality>
+        <linkedin:type>Società quotata</linkedin:type>
+        <linkedin:headquarter>Seattle, WA</linkedin:headquarter>
+        <linkedin:industry>Internet</linkedin:industry>
+        <linkedin:about>Amazon punta a diventare l’azienda più incentrata sul cliente al mondo, un luogo dove sia possibile trovare praticamente qualsiasi articolo e acquistarlo online. Focalizzando l’attenzione su ciò che sta maggiormente a cuore ai clienti - prezzi contenuti, ampia selezione e convenienza, Amazon continua a crescere ed a evolversi come sito internazionale di commercio online.  Fondato da Jeff Bezos nel 1995, il sito web Amazon.com era il luogo dove acquistare libri, proprio per l’esperienza unica che il web poteva offrire agli amanti della lettura. Bezos, infatti, era convinto che solo Internet potesse permettere ai clienti di scoprire comodamente milioni di titoli in un solo colpo. Nei primi 30 giorni d’attività, Amazon ricevette ordini da clienti in 50 Stati degli USA e 45 Paesi esteri, inviando i prodotti venduti da un garage di Seattle.  L’evoluzione di Amazon da semplice sito web a partner per il commercio online, fino a piattaforma di sviluppo, si basa sullo spirito d’innovazione insito nel DNA dell’azienda. Le menti più brillanti e i migliori talenti del mondo scelgono di lavorare per Amazon allo scopo di sviluppare tecnologie che migliorino la vita di clienti e rivenditori in tutto il mondo.</linkedin:about>
+        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
+        <linkedin:website>http://www.amazon.com</linkedin:website>
+        <linkedin:placeName>Amazon</linkedin:placeName>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill>
@@ -320,6 +336,18 @@
         <linkedin:skillName>Problem Solving</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company6">
+        <linkedin:speciality>search, ads, mobile, android, online video, apps, machine learning, virtual reality, cloud, hardware, artificial intelligence, youtube e software</linkedin:speciality>
+        <linkedin:type>Società quotata</linkedin:type>
+        <linkedin:headquarter>Mountain View, CA</linkedin:headquarter>
+        <linkedin:industry>Internet</linkedin:industry>
+        <linkedin:about>A problem isn't truly solved until it's solved for all. Googlers build products that help create opportunities for everyone, whether down the street or across the globe. Bring your insight, imagination and a healthy disregard for the impossible. Bring everything that makes you unique. Together, we can build for everyone.  Check out our career opportunities at careers.google.com.</linkedin:about>
+        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
+        <linkedin:website>https://goo.gle/3m1IN7m</linkedin:website>
+        <linkedin:placeName>Google</linkedin:placeName>
+      </linkedin:Company>
+    </linkedin:hasInterest>
     <linkedin:hasEducationExperience>
       <linkedin:EducationExperience rdf:ID="eduExp16">
         <linkedin:happenedAt>
@@ -397,7 +425,6 @@
         <linkedin:role>In corso</linkedin:role>
       </linkedin:EducationExperience>
     </linkedin:hasEducationExperience>
-    <linkedin:hasInterest rdf:resource="#company26"/>
     <linkedin:hasSkill rdf:resource="#skill16"/>
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp34">
@@ -418,6 +445,7 @@
         <linkedin:skillName>Java</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
+    <linkedin:hasInterest rdf:resource="#company5"/>
     <linkedin:location>Firenze, Toscana, Italia</linkedin:location>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill26">
@@ -490,27 +518,27 @@
     <linkedin:location>Firenze</linkedin:location>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company76">
-        <linkedin:speciality>Cloud, Mobile, Cognitive, Security, Research, Watson, Analytics, Consulting, Commerce, Experience Design, Internet of Things, Technology support, Industry solutions, Systems services, Resiliency services, Financing e IT infrastructure</linkedin:speciality>
+        <linkedin:headquarter>Redmond, Washington</linkedin:headquarter>
+        <linkedin:placeName>Microsoft</linkedin:placeName>
         <linkedin:type>Società quotata</linkedin:type>
-        <linkedin:headquarter>Armonk, New York, NY</linkedin:headquarter>
-        <linkedin:industry>Informatica e servizi</linkedin:industry>
-        <linkedin:about>La IBM (International Business Machines Corporation) è tra le maggiori imprese del mondo e un marchio leader dell’Information Technology. Fondata nel 1911, ha sede ad Armonk negli Stati Uniti e operazioni in oltre 170 Paesi.     Da sempre la missione della IBM è sviluppare tecnologie informatiche avanzate e integrarle in soluzioni a sostegno dell’innovazione nelle imprese, nelle istituzioni e nella società. Con 5 Premi Nobel assegnati a suoi ricercatori, la IBM detiene primati in ogni area dell’IT e dedica alla sola ricerca oltre 3 mila persone e investimenti annui superiori ai 6 miliardi di dollari; da 21 anni è la prima società per numero di brevetti negli Stati Uniti.     IBM offre un ampio ventaglio di soluzioni tecnologiche e servizi di consulenza, un portfolio di middleware per la collaborazione, l’analisi predittiva, lo sviluppo software e la gestione dei sistemi, nonché i componenti più avanzati (server, memorie, supercomputer) per la costruzione delle infrastrutture digitali del futuro. Grazie all’esperienza che nasce dalle attività svolte nella consulenza, nella tecnologia e nella ricerca, IBM è in grado di accompagnare i clienti nel percorso di trasformazione indotto dalla crescente interconnessione digitale dell’economia e della società.     In Italia IBM ha sede a Segrate (Milano) e opera su tutto il territorio nazionale attraverso strutture e competenze d’alto livello, specializzate nei diversi segmenti di mercato, e una rete di oltre 2.000 business partner. Il laboratorio di sviluppo di Roma, con oltre 500 specialisti, svolge una missione mondiale nell’ambito del software di rete e del Cloud, una delle aree di maggiore crescita del settore IT.    IBM Italia LinkedIn account. Gestito da Alessandro Zonin e Cecilia Surano secondo le IBM Social Computing Guidelines. IBM si riserva il diritto di cancellare i commenti, anche anonimi, giudicati offensivi o fuori tema, e comunque tali da costituire attacchi alla persona, forma di spam, pubblicità.</linkedin:about>
         <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
-        <linkedin:website>http://www.ibm.com</linkedin:website>
-        <linkedin:placeName>IBM</linkedin:placeName>
+        <linkedin:about>At Microsoft, our mission is to empower every person and every organization on the planet to achieve more. Microsoft enables digital transformation for the era of an intelligent cloud and an intelligent edge.   Microsoft operates in 190 countries and is made up of 181,000 passionate employees worldwide.</linkedin:about>
+        <linkedin:speciality>Business Software, Developer Tools, Home &amp; Educational Software, Tablets, Search, Advertising, Servers, Windows Operating System, Windows Applications &amp; Platforms, Smartphones, Cloud Computing, Quantum Computing, Future of Work, Productivity, AI, Artificial Intelligence, Machine Learning, Laptops, Mixed Reality, Virtual Reality, Gaming, Developers e IT Professional</linkedin:speciality>
+        <linkedin:website>https://news.microsoft.com/</linkedin:website>
+        <linkedin:founded>1975</linkedin:founded>
+        <linkedin:industry>Software</linkedin:industry>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company78">
-        <linkedin:placeName>The Walt Disney Company</linkedin:placeName>
-        <linkedin:industry>Intrattenimento</linkedin:industry>
-        <linkedin:website>http://www.disneycareers.com</linkedin:website>
+        <linkedin:speciality>Online Professional Network, Jobs, People Search, Company Search, Address Book, Advertising, Professional Identity e Group Collaboration</linkedin:speciality>
         <linkedin:type>Società quotata</linkedin:type>
-        <linkedin:founded>1923</linkedin:founded>
-        <linkedin:speciality>Entertainment, Technology, Media, Movies, Television, Consumer Products, Theme Parks, Resorts, Interactive Media, Publishing, Radio, Live Entertainment, Music, Stage Plays, Animation, Studios, Apparel, Apps, Gaming e Toys</linkedin:speciality>
-        <linkedin:about>From classic animated features and exhilarating theme park attractions to cutting edge sports coverage, and the hottest shows on television, The Walt Disney Company has been making magic since 1923, creating unforgettable stories that connect with audiences around the world. And we’re just getting started!    The key to our success…. The Cast, Crew, Imagineers and Employees who honor Disney’s rich legacy by stretching the bounds of imagination to create the never-before-seen, bringing unparalleled entertainment experiences to people of all ages. Begin a career that delivers unparalleled creative content and experiences to audiences around the world and just imagine the stories you could be part of…    What is #LifeAtDisney like? It’s a series of magical moments with cast members and employees developing and telling our stories in the most innovative ways. Whether it’s a day spent as a Disney VoluntEAR, or celebrating the release of a new interactive experience, retail product or movie, our days are filled with the knowledge that we are creating entertainment experiences the whole family can enjoy. Follow @DisneyCareers on Facebook, Twitter and Instagram for a peek behind-the-curtain, and discover how you could connect to a world of stories with Disney!</linkedin:about>
-        <linkedin:headquarter>Burbank, CA</linkedin:headquarter>
+        <linkedin:headquarter>Sunnyvale, CA</linkedin:headquarter>
+        <linkedin:industry>Internet</linkedin:industry>
+        <linkedin:about>With millions of jobs on LinkedIn, find one meant for you. #InItTogether  Founded in 2003, LinkedIn connects the world's professionals to make them more productive and successful. With more than 756 million members worldwide, including executives from every Fortune 500 company, LinkedIn is the world's largest professional network. The company has a diversified business model with revenue coming from Talent Solutions, Marketing Solutions, Sales Solutions and Premium Subscriptions products. Headquartered in Silicon Valley, LinkedIn has offices across the globe.</linkedin:about>
         <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
+        <linkedin:website>https://careers.linkedin.com</linkedin:website>
+        <linkedin:placeName>LinkedIn</linkedin:placeName>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill rdf:resource="#skill115"/>
@@ -546,6 +574,7 @@
         <linkedin:skillName>Wordpress</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
+    <linkedin:URL>https://www.linkedin.com/in/alessio-falai/</linkedin:URL>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill180">
         <linkedin:skillName>Constraint Programming</linkedin:skillName>
@@ -556,7 +585,6 @@
         <linkedin:skillName>Git</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
-    <linkedin:URL>https://www.linkedin.com/in/alessio-falai/?originalSubdomain=it</linkedin:URL>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill158">
         <linkedin:skillName>Computer Vision</linkedin:skillName>
@@ -613,18 +641,7 @@
     </linkedin:hasSkill>
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp37">
-        <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company71">
-            <linkedin:speciality>e-Commerce, Retail, Operations e Internet</linkedin:speciality>
-            <linkedin:type>Società quotata</linkedin:type>
-            <linkedin:headquarter>Seattle, WA</linkedin:headquarter>
-            <linkedin:industry>Internet</linkedin:industry>
-            <linkedin:about>Amazon punta a diventare l’azienda più incentrata sul cliente al mondo, un luogo dove sia possibile trovare praticamente qualsiasi articolo e acquistarlo online. Focalizzando l’attenzione su ciò che sta maggiormente a cuore ai clienti - prezzi contenuti, ampia selezione e convenienza, Amazon continua a crescere ed a evolversi come sito internazionale di commercio online.  Fondato da Jeff Bezos nel 1995, il sito web Amazon.com era il luogo dove acquistare libri, proprio per l’esperienza unica che il web poteva offrire agli amanti della lettura. Bezos, infatti, era convinto che solo Internet potesse permettere ai clienti di scoprire comodamente milioni di titoli in un solo colpo. Nei primi 30 giorni d’attività, Amazon ricevette ordini da clienti in 50 Stati degli USA e 45 Paesi esteri, inviando i prodotti venduti da un garage di Seattle.  L’evoluzione di Amazon da semplice sito web a partner per il commercio online, fino a piattaforma di sviluppo, si basa sullo spirito d’innovazione insito nel DNA dell’azienda. Le menti più brillanti e i migliori talenti del mondo scelgono di lavorare per Amazon allo scopo di sviluppare tecnologie che migliorino la vita di clienti e rivenditori in tutto il mondo.</linkedin:about>
-            <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
-            <linkedin:website>http://www.amazon.com</linkedin:website>
-            <linkedin:placeName>Amazon</linkedin:placeName>
-          </linkedin:Company>
-        </linkedin:happenedAt>
+        <linkedin:happenedAt rdf:resource="#company71"/>
         <linkedin:location>Virtual</linkedin:location>
         <linkedin:endDate>ago 2021</linkedin:endDate>
         <linkedin:startDate>feb 2021</linkedin:startDate>
@@ -682,15 +699,15 @@
     <linkedin:hasSkill rdf:resource="#skill155"/>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company77">
-        <linkedin:industry>Software</linkedin:industry>
-        <linkedin:headquarter>Redmond, Washington</linkedin:headquarter>
+        <linkedin:headquarter>Burbank, CA</linkedin:headquarter>
+        <linkedin:placeName>The Walt Disney Company</linkedin:placeName>
+        <linkedin:about>From classic animated features and exhilarating theme park attractions to cutting edge sports coverage, and the hottest shows on television, The Walt Disney Company has been making magic since 1923, creating unforgettable stories that connect with audiences around the world. And we’re just getting started!    The key to our success…. The Cast, Crew, Imagineers and Employees who honor Disney’s rich legacy by stretching the bounds of imagination to create the never-before-seen, bringing unparalleled entertainment experiences to people of all ages. Begin a career that delivers unparalleled creative content and experiences to audiences around the world and just imagine the stories you could be part of…    What is #LifeAtDisney like? It’s a series of magical moments with cast members and employees developing and telling our stories in the most innovative ways. Whether it’s a day spent as a Disney VoluntEAR, or celebrating the release of a new interactive experience, retail product or movie, our days are filled with the knowledge that we are creating entertainment experiences the whole family can enjoy. Follow @DisneyCareers on Facebook, Twitter and Instagram for a peek behind-the-curtain, and discover how you could connect to a world of stories with Disney!</linkedin:about>
+        <linkedin:industry>Intrattenimento</linkedin:industry>
         <linkedin:type>Società quotata</linkedin:type>
-        <linkedin:website>https://news.microsoft.com/</linkedin:website>
-        <linkedin:founded>1975</linkedin:founded>
-        <linkedin:speciality>Business Software, Developer Tools, Home &amp; Educational Software, Tablets, Search, Advertising, Servers, Windows Operating System, Windows Applications &amp; Platforms, Smartphones, Cloud Computing, Quantum Computing, Future of Work, Productivity, AI, Artificial Intelligence, Machine Learning, Laptops, Mixed Reality, Virtual Reality, Gaming, Developers e IT Professional</linkedin:speciality>
-        <linkedin:placeName>Microsoft</linkedin:placeName>
+        <linkedin:speciality>Entertainment, Technology, Media, Movies, Television, Consumer Products, Theme Parks, Resorts, Interactive Media, Publishing, Radio, Live Entertainment, Music, Stage Plays, Animation, Studios, Apparel, Apps, Gaming e Toys</linkedin:speciality>
+        <linkedin:founded>1923</linkedin:founded>
+        <linkedin:website>http://www.disneycareers.com</linkedin:website>
         <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
-        <linkedin:about>At Microsoft, our mission is to empower every person and every organization on the planet to achieve more. Microsoft enables digital transformation for the era of an intelligent cloud and an intelligent edge.   Microsoft operates in 190 countries and is made up of 181,000 passionate employees worldwide.</linkedin:about>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill rdf:resource="#skill128"/>
@@ -793,7 +810,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp25">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company39">
+          <linkedin:Company rdf:ID="company38">
             <linkedin:placeName>Freelance</linkedin:placeName>
           </linkedin:Company>
         </linkedin:happenedAt>
@@ -803,34 +820,35 @@
         <linkedin:role>Sviluppatore Python</linkedin:role>
       </linkedin:WorkingExperience>
     </linkedin:hasWorkingExperience>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company52">
+        <linkedin:speciality>Software development, DBA, System Management, Network Management, Mobile Applications, Mobile Certification &amp; Testing, Project&amp;Service Management, Big Data, System integration, Machine Learning, Realtà aumentata, CMS, IoT, Virtualization, Predictive analysis, Machine to Machine, NoSQL, Innovation e Industry 4.0</linkedin:speciality>
+        <linkedin:placeName>SOGETEL srl</linkedin:placeName>
+        <linkedin:type>Società privata non quotata</linkedin:type>
+        <linkedin:founded>1981</linkedin:founded>
+        <linkedin:industry>Informatica e servizi</linkedin:industry>
+        <linkedin:companySize>51-200 dipendenti</linkedin:companySize>
+        <linkedin:website>http://www.sogetel.it</linkedin:website>
+        <linkedin:about>Siamo un’azienda italiana con sedi a Roma e Milano. Operiamo nel campo digitale, progettando e sviluppando soluzioni in grado di soddisfare le esigenze dei clienti e di superare le sfide del mercato.  Le nostre aree di competenza sono: - Innovation - Digital Development - Data Development  Partendo da una solida esperienza sui database relazionali abbiamo completato la nostra offerta proponendoci come partner ideale per soluzioni Big Data basate su tecnologie Open source.  Ci dedichiamo con passione e costanza alla ricerca e alla sperimentazione nel campo dell’innovazione digitale. Questo ci permette di andare oltre alla semplice risoluzione del problema e di diventare una vera e propria guida all'interno del progresso digitale.</linkedin:about>
+        <linkedin:headquarter>Roma, Roma</linkedin:headquarter>
+      </linkedin:Company>
+    </linkedin:hasInterest>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill121">
         <linkedin:skillName>Kali</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
     <linkedin:hasInterest>
-      <linkedin:Company rdf:ID="company56">
-        <linkedin:speciality>enterprise, software, applications, database, middleware, fusion, business intelligence, Primavera, PeopleSoft, EPM, BEA, Hyperion, Retek, Utilities, On-Demand, server &amp; storage systems, BPM, solutions for communications industry, ERP, CRM, CRM On Demand, JDE e Siebel</linkedin:speciality>
-        <linkedin:headquarter>Austin, Texas</linkedin:headquarter>
-        <linkedin:industry>Informatica e servizi</linkedin:industry>
-        <linkedin:website>http://www.oracle.com</linkedin:website>
-        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
-        <linkedin:about>We’re a cloud technology company that provides organizations around the world with computing infrastructure and software to help them innovate, unlock efficiencies and become more effective. We also created the world’s first – and only – autonomous database to help organize and secure our customers’ data.   Oracle Cloud Infrastructure offers higher performance, security, and cost savings. It is designed so businesses can move workloads easily from on-premises systems to the cloud, and between cloud and on-premises and other clouds. Oracle Cloud applications provide business leaders with modern applications that help them innovate, attain sustainable growth, and become more resilient.    The work we do is not only transforming the world of business--it's helping defend governments, and advance scientific and medical research. From nonprofits to companies of all sizes, millions of people use our tools to streamline supply chains, make HR more human, quickly pivot to a new financial plan, and connect data and people around the world.    At work, we embrace diversity, encourage personal and professional growth, and celebrate a global team of passionate people developing innovative technologies that help people and companies tackle real-world problems head-on.  If you’d like to join us, please visit our Careers page: https://www.oracle.com/corporate/careers/  For investor news, SEC filings, and financial information about Oracle (NYSE:ORCL), please visit https://investor.oracle.com/home/.   Follow us on Twitter: https://twitter.com/oracle  Like our page on Facebook: https://www.facebook.com/Oracle/  Follow us on Instagram: https://www.instagram.com/oracle/</linkedin:about>
-        <linkedin:type>Società quotata</linkedin:type>
-        <linkedin:founded>1977</linkedin:founded>
-        <linkedin:placeName>Oracle</linkedin:placeName>
-      </linkedin:Company>
-    </linkedin:hasInterest>
-    <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company55">
-        <linkedin:speciality>Recruitment, Staffing solutions, Resourcing, Career transition, Recruitment Process Outsourcing (RPO), Digital &amp; Creative Services, Onboarding, contract recruitment e Contracting jobs</linkedin:speciality>
+        <linkedin:industry>Informatica e servizi</linkedin:industry>
+        <linkedin:founded>1977</linkedin:founded>
+        <linkedin:website>http://www.oracle.com</linkedin:website>
+        <linkedin:about>We’re a cloud technology company that provides organizations around the world with computing infrastructure and software to help them innovate, unlock efficiencies and become more effective. We also created the world’s first – and only – autonomous database to help organize and secure our customers’ data.   Oracle Cloud Infrastructure offers higher performance, security, and cost savings. It is designed so businesses can move workloads easily from on-premises systems to the cloud, and between cloud and on-premises and other clouds. Oracle Cloud applications provide business leaders with modern applications that help them innovate, attain sustainable growth, and become more resilient.    The work we do is not only transforming the world of business--it's helping defend governments, and advance scientific and medical research. From nonprofits to companies of all sizes, millions of people use our tools to streamline supply chains, make HR more human, quickly pivot to a new financial plan, and connect data and people around the world.    At work, we embrace diversity, encourage personal and professional growth, and celebrate a global team of passionate people developing innovative technologies that help people and companies tackle real-world problems head-on.  If you’d like to join us, please visit our Careers page: https://www.oracle.com/corporate/careers/  For investor news, SEC filings, and financial information about Oracle (NYSE:ORCL), please visit https://investor.oracle.com/home/.   Follow us on Twitter: https://twitter.com/oracle  Like our page on Facebook: https://www.facebook.com/Oracle/  Follow us on Instagram: https://www.instagram.com/oracle/</linkedin:about>
+        <linkedin:headquarter>Austin, Texas</linkedin:headquarter>
+        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
         <linkedin:type>Società quotata</linkedin:type>
-        <linkedin:headquarter>London, England</linkedin:headquarter>
-        <linkedin:industry>Selezione e ricerca di personale</linkedin:industry>
-        <linkedin:about>Coronavirus update: We will continue to deliver our services to the high standards you would expect of us. We have adapted our way of working and have robust and flexible plans in place so we can continue to support you during this uncertain and difficult time.  POWERING THE WORLD OF WORK, HELPING PEOPLE AND ORGANISATIONS ACHIEVE LASTING IMPACT.  Hays is a leading global professional recruiting group, the expert at recruiting qualified, professional and skilled people worldwide, being the market leader in the UK and Asia Pacific and one of the market leaders in Continental Europe and Latin America.   The c.11,000 people we employ around the world partner with clients and candidates to power the world of work.  Every day our expert consultants help thousands of candidates find their next role, and they also help clients reshape workforces and deal with talent shortages. Last year we placed 77,000 people in permanent jobs and 244,000 people into temporary roles.  For more information about our global network, strategy and Group financial results, visit http://haysplc.com.</linkedin:about>
-        <linkedin:companySize>5.001-10.000 dipendenti</linkedin:companySize>
-        <linkedin:website>http://www.haysplc.com</linkedin:website>
-        <linkedin:placeName>Hays</linkedin:placeName>
+        <linkedin:placeName>Oracle</linkedin:placeName>
+        <linkedin:speciality>enterprise, software, applications, database, middleware, fusion, business intelligence, Primavera, PeopleSoft, EPM, BEA, Hyperion, Retek, Utilities, On-Demand, server &amp; storage systems, BPM, solutions for communications industry, ERP, CRM, CRM On Demand, JDE e Siebel</linkedin:speciality>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill>
@@ -858,7 +876,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp28">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company50">
+          <linkedin:Company rdf:ID="company48">
             <linkedin:speciality>webdesign, siti internet, agenzia di comunicazione e stampa</linkedin:speciality>
             <linkedin:founded>2011</linkedin:founded>
             <linkedin:type>Società privata non quotata</linkedin:type>
@@ -881,18 +899,6 @@
       </linkedin:Skill>
     </linkedin:hasSkill>
     <linkedin:hasSkill rdf:resource="#skill2"/>
-    <linkedin:hasInterest>
-      <linkedin:Company rdf:ID="company16">
-        <linkedin:speciality>IT Services, IT Solutions, Staffing, Special Projects, Engineering Services, Engineering Solutions, sciences e life sciences</linkedin:speciality>
-        <linkedin:type>Società quotata</linkedin:type>
-        <linkedin:headquarter>Zurich, Zurich</linkedin:headquarter>
-        <linkedin:industry>Informatica e servizi</linkedin:industry>
-        <linkedin:about>Leader globale nella consulenza in ambito ICT, Engineering, Life Science. Modis offre ai propri clienti agili soluzioni end-to-end, tra cui consulenza, project services, managed services, soluzioni personalizzate e progetti di outsourcing. Parte del Gruppo Adecco, il primo partner mondiale nel settore delle soluzioni HR, Modis connette i suoi collaboratori, consulenti, clienti e candidati in un mondo del lavoro in rapida evoluzione attraverso la tecnologia, l'innovazione e l’esperienza internazionale. Modis è l'unico marchio globale di questo tipo, coinvolge circa 35.000 collaboratori e consulenti e serve oltre 6.000 clienti in 18 paesi in tutto il mondo. Il network mondiale di 20 centri di eccellenza Modis mette a disposizione dei clienti le best practices, le risorse, l'esperienza e gli esperti del Gruppo Adecco in 60 territori. Modis offre ai propri candidati un portafoglio di progetti e opportunità di sviluppo di carriera unici, con la flessibilità e la sicurezza di cui hanno bisogno per crescere professionalmente. In Italia ha le sue sedi principali a Milano, Torino e Roma.  Visita il nostro sito: https://www.modisitalia.it/</linkedin:about>
-        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
-        <linkedin:website>http://www.modis.com</linkedin:website>
-        <linkedin:placeName>Modis</linkedin:placeName>
-      </linkedin:Company>
-    </linkedin:hasInterest>
     <linkedin:hasSkill rdf:resource="#skill17"/>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill105">
@@ -905,6 +911,19 @@
         <linkedin:role>Diploma Istituto Tecnico e Professionale</linkedin:role>
       </linkedin:EducationExperience>
     </linkedin:hasEducationExperience>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company51">
+        <linkedin:type>Società quotata</linkedin:type>
+        <linkedin:founded>2004</linkedin:founded>
+        <linkedin:about>Founded in 2004, Facebook’s mission is to give people the power to build community and bring the world closer together. Over 2 billion people use Facebook, Instagram, WhatsApp, or Messenger every month to stay connected with friends and family, to discover what’s going on in the world, and to share and express what matters to them.   Facebook is defined by our unique culture – one that rewards impact. We encourage people to be bold and solve the problems they care most about. We work in small teams and move fast to develop new products, constantly iterating. The phrase “this journey is 1% finished” reminds us that we’ve only begun to fulfill our mission.  As we evolve our journey to bring the world closer together, we stay true to the same core values to guide the way we work and the decisions we make every step of the way: be open, be bold, move fast, focus on impact, and build social value.  For a full listing of our jobs, visit http://www.facebook.com/careers  We created this space on LinkedIn to share information about careers at Facebook. This includes employee stories, current openings, and inside looks at particular teams and initiatives. We welcome relevant comments and discussion, so please be respectful. We reserve the right to moderate content, including off-topic, inaccurate, spam comments and posts.  If you are seeking support for issues related to your Facebook account, please reference our Help Center (https://www.facebook.com/help) or Help Community (https://www.facebook.com/help/community).</linkedin:about>
+        <linkedin:headquarter>Menlo Park, CA</linkedin:headquarter>
+        <linkedin:placeName>Facebook</linkedin:placeName>
+        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
+        <linkedin:speciality>Connectivity, Artificial Intelligence, Virtual Reality, Machine Learning, Social Media, Augmented Reality, Marketing Science, Mobile Connectivity e Open Compute</linkedin:speciality>
+        <linkedin:website>http://www.facebook.com/careers</linkedin:website>
+        <linkedin:industry>Internet</linkedin:industry>
+      </linkedin:Company>
+    </linkedin:hasInterest>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill106">
         <linkedin:skillName>Test di penetrazione</linkedin:skillName>
@@ -917,15 +936,14 @@
     </linkedin:hasSkill>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company53">
-        <linkedin:type>Società privata non quotata</linkedin:type>
-        <linkedin:founded>1981</linkedin:founded>
-        <linkedin:companySize>51-200 dipendenti</linkedin:companySize>
-        <linkedin:website>http://www.sogetel.it</linkedin:website>
-        <linkedin:about>Siamo un’azienda italiana con sedi a Roma e Milano. Operiamo nel campo digitale, progettando e sviluppando soluzioni in grado di soddisfare le esigenze dei clienti e di superare le sfide del mercato.  Le nostre aree di competenza sono: - Innovation - Digital Development - Data Development  Partendo da una solida esperienza sui database relazionali abbiamo completato la nostra offerta proponendoci come partner ideale per soluzioni Big Data basate su tecnologie Open source.  Ci dedichiamo con passione e costanza alla ricerca e alla sperimentazione nel campo dell’innovazione digitale. Questo ci permette di andare oltre alla semplice risoluzione del problema e di diventare una vera e propria guida all'interno del progresso digitale.</linkedin:about>
-        <linkedin:speciality>Software development, DBA, System Management, Network Management, Mobile Applications, Mobile Certification &amp; Testing, Project&amp;Service Management, Big Data, System integration, Machine Learning, Realtà aumentata, CMS, IoT, Virtualization, Predictive analysis, Machine to Machine, NoSQL, Innovation e Industry 4.0</linkedin:speciality>
-        <linkedin:headquarter>Roma, Roma</linkedin:headquarter>
-        <linkedin:placeName>SOGETEL srl</linkedin:placeName>
-        <linkedin:industry>Informatica e servizi</linkedin:industry>
+        <linkedin:speciality>Recruitment, Staffing solutions, Resourcing, Career transition, Recruitment Process Outsourcing (RPO), Digital &amp; Creative Services, Onboarding, contract recruitment e Contracting jobs</linkedin:speciality>
+        <linkedin:type>Società quotata</linkedin:type>
+        <linkedin:headquarter>London, England</linkedin:headquarter>
+        <linkedin:industry>Selezione e ricerca di personale</linkedin:industry>
+        <linkedin:about>Coronavirus update: We will continue to deliver our services to the high standards you would expect of us. We have adapted our way of working and have robust and flexible plans in place so we can continue to support you during this uncertain and difficult time.  POWERING THE WORLD OF WORK, HELPING PEOPLE AND ORGANISATIONS ACHIEVE LASTING IMPACT.  Hays is a leading global professional recruiting group, the expert at recruiting qualified, professional and skilled people worldwide, being the market leader in the UK and Asia Pacific and one of the market leaders in Continental Europe and Latin America.   The c.11,000 people we employ around the world partner with clients and candidates to power the world of work.  Every day our expert consultants help thousands of candidates find their next role, and they also help clients reshape workforces and deal with talent shortages. Last year we placed 77,000 people in permanent jobs and 244,000 people into temporary roles.  For more information about our global network, strategy and Group financial results, visit http://haysplc.com.</linkedin:about>
+        <linkedin:companySize>5.001-10.000 dipendenti</linkedin:companySize>
+        <linkedin:website>http://www.haysplc.com</linkedin:website>
+        <linkedin:placeName>Hays</linkedin:placeName>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill>
@@ -936,7 +954,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp29">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company51">
+          <linkedin:Company rdf:ID="company49">
             <linkedin:founded>2007</linkedin:founded>
             <linkedin:type>Società di persone</linkedin:type>
             <linkedin:industry>Software</linkedin:industry>
@@ -961,7 +979,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp26">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company48">
+          <linkedin:Company rdf:ID="company46">
             <linkedin:speciality>Alta Formazione, Università, Ricerca applicata allo sviluppo, Trasferimento tecnologico, Corsi di studio universitari, Master, Corsi di Formazioni, Consulenza aziendale, Servizi per le imprese, Laboratori universitari, Polo universitario, Comunicazione, Campus, Innovazione, Laboratori, Progetti europei e Istruzione</linkedin:speciality>
             <linkedin:founded>1992</linkedin:founded>
             <linkedin:type>Istruzione</linkedin:type>
@@ -982,7 +1000,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp27">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company49">
+          <linkedin:Company rdf:ID="company47">
             <linkedin:placeName>Apptec srl</linkedin:placeName>
           </linkedin:Company>
         </linkedin:happenedAt>
@@ -1018,6 +1036,18 @@
         <linkedin:skillName>Sicurezza informatica</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company17">
+        <linkedin:speciality>IT Services, IT Solutions, Staffing, Special Projects, Engineering Services, Engineering Solutions, sciences e life sciences</linkedin:speciality>
+        <linkedin:type>Società quotata</linkedin:type>
+        <linkedin:headquarter>Zurich, Zurich</linkedin:headquarter>
+        <linkedin:industry>Informatica e servizi</linkedin:industry>
+        <linkedin:about>Leader globale nella consulenza in ambito ICT, Engineering, Life Science. Modis offre ai propri clienti agili soluzioni end-to-end, tra cui consulenza, project services, managed services, soluzioni personalizzate e progetti di outsourcing. Parte del Gruppo Adecco, il primo partner mondiale nel settore delle soluzioni HR, Modis connette i suoi collaboratori, consulenti, clienti e candidati in un mondo del lavoro in rapida evoluzione attraverso la tecnologia, l'innovazione e l’esperienza internazionale. Modis è l'unico marchio globale di questo tipo, coinvolge circa 35.000 collaboratori e consulenti e serve oltre 6.000 clienti in 18 paesi in tutto il mondo. Il network mondiale di 20 centri di eccellenza Modis mette a disposizione dei clienti le best practices, le risorse, l'esperienza e gli esperti del Gruppo Adecco in 60 territori. Modis offre ai propri candidati un portafoglio di progetti e opportunità di sviluppo di carriera unici, con la flessibilità e la sicurezza di cui hanno bisogno per crescere professionalmente. In Italia ha le sue sedi principali a Milano, Torino e Roma.  Visita il nostro sito: https://www.modisitalia.it/</linkedin:about>
+        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
+        <linkedin:website>http://www.modis.com</linkedin:website>
+        <linkedin:placeName>Modis</linkedin:placeName>
+      </linkedin:Company>
+    </linkedin:hasInterest>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill99">
         <linkedin:skillName>E-commerce</linkedin:skillName>
@@ -1030,15 +1060,16 @@
     </linkedin:hasSkill>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company54">
-        <linkedin:about>MediaSecure è una realtà che dai primi anni duemila si dedica esclusivamente al mondo della Sicurezza Informatica nel mondo delle Aziende.  Da oltre 15 anni realizziamo progetti di integrazione tra sistemi di sicurezza informatica e reti aziendali.  Cambiano le reti, cambiano i sistemi di sicurezza informatica: noi siamo sempre pronti a connettere le due parti di questo delicato processo.   DEDICATI MediaSecure è una realtà che opera a 360° nel mondo della Information Security.  A noi il compito di scegliere la soluzione migliore e adattarla alla rete aziendale.  COMPETENTI Lavorare per 20 anni nella sicurezza informatica  ci ha permesso di crescere con lei. MediaSecure ha imparato negli anni che studiare le azioni dei bad guys è il miglior modo per difendersi.  EVOLUTIVI L'obiettivo è sempre il solito ma gli strumenti di aggressione cambiano nel tempo. Se le aggressioni cambiano, le difese si adattano; MediaSecure è un  network security designer ​.  Who's Bad?</linkedin:about>
-        <linkedin:founded>2009</linkedin:founded>
+        <linkedin:speciality>Marketing &amp; Communications Recruitment, Creative Recruitment, Digital Technology Recruitment, Digital Recruitment, Digital Marketing Recruitment, Search &amp; Selection, Talent Finding, Salary &amp; Benchmarking, Market Mapping, eCommerce Recruitment, Employee Engagement, UX &amp; UI Recruitment, Digital Transformation &amp; Change Recruitment, Data Recruitment, Agency Recruitment, Digital Change &amp; Transformation Recruitment, Insight, Data &amp; Analytics Recruitment, Marketing &amp; Agency Recruitment, Technology Recruitment, eCommerce Recruitment, Project Management Recruitment, Product Management Recruitment, UX Recruitment, Science Recruitment, Engineering Recruitment, Pharmaceuticals Recruitment, Design Recruitment e Sustainability Recruitment</linkedin:speciality>
+        <linkedin:headquarter>Bristol, Bristol</linkedin:headquarter>
         <linkedin:type>Società privata non quotata</linkedin:type>
+        <linkedin:phone>0117 926 9530 Il numero di telefono è 0117 926 9530</linkedin:phone>
+        <linkedin:founded>2000</linkedin:founded>
+        <linkedin:website>http://www.adlib-recruitment.co.uk</linkedin:website>
         <linkedin:companySize>11-50 dipendenti</linkedin:companySize>
-        <linkedin:industry>Informatica e servizi</linkedin:industry>
-        <linkedin:placeName>MediaSecure | IT security experts</linkedin:placeName>
-        <linkedin:speciality>ICT consultancy, solution integrator, secure integration, vulnerability assessment, SOC, Security Training, Check Point, Palo Alto Networks, Cisco, Trend Micro, Qualys, F5, ForcePoint, Forescout, Splunk e Gigamon</linkedin:speciality>
-        <linkedin:headquarter>Firenze, Toscana</linkedin:headquarter>
-        <linkedin:website>http://www.mediasecure.it</linkedin:website>
+        <linkedin:about>We are an employee-owned Recruitment Agency operating within the Technology, Data, Engineering, Science, Sustainability, eCommerce, Marketing and Design sectors.  Proudly B Corp certified. Our mission and impact go far beyond recruitment.  We connect ambitious organisations with equally ambitious talent. We immerse ourselves in the worlds we operate in. A trusted partner, supporting growth and success at pace since 2001.  Our highly respected and experienced team is regularly called on to share their unrivalled knowledge and bring the finest talent together with ambitious start-ups, thriving SMEs, agencies of all shapes and sizes, challenger brands and global organisations.  www.adlib-recruitment.co.uk  purpose driven | knowledgeable | honest | progressive | dedicated  🌐  www.adlib-recruitment.co.uk ✉️ hello@adlib-recruitment.co.uk 📞 0117 926 9530 @adlibrecruit</linkedin:about>
+        <linkedin:placeName>ADLIB Recruitment</linkedin:placeName>
+        <linkedin:industry>Selezione e ricerca di personale</linkedin:industry>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill rdf:resource="#skill5"/>
@@ -1064,14 +1095,15 @@
     </linkedin:hasSkill>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company60">
-        <linkedin:speciality>Credit Bureau Services, Credit Bureau Data Pools, Rating Agency, Credit Solutions, Fraud Prevention Solutions, Business Information, Marketing, Consultancy, Debt Collection, Real Estate Services, BPO, Insurance Solutions, Personal Solutions, Software e E-commerce</linkedin:speciality>
-        <linkedin:founded>1988</linkedin:founded>
         <linkedin:type>Società privata non quotata</linkedin:type>
-        <linkedin:industry>Informatica e servizi</linkedin:industry>
-        <linkedin:about>CRIF is a global company specializing in credit bureau and business information, outsourcing and processing services, and credit solutions. Established in 1988 in Bologna (Italy), CRIF has an international presence, operating over four continents (Europe, America, Africa and Asia).   The mission that drives CRIF is to create value and new opportunities for consumers and businesses by providing reliable information and solutions, allowing more powerful decisions and accelerating digital innovation. Since 1988, CRIF has been responsibly supporting its clients glocally in their everyday financial journey, through trusted information, advanced cutting-edge solutions, and unique expert knowledge.  CRIF is the leading provider in continental Europe of banking credit information, one of the key players worldwide providing integrated services and solutions for business &amp; commercial information and credit &amp; marketing management, and is included in the prestigious FinTech 100, a ranking of the leading global technology solution providers to the financial services industry.  - 35+ country-based operations - 70+ subsidiary companies - 5,000+ professionals at your service   - more than 10,500 financial institutions, 1,000 insurance companies, 82,000 business clients, and 1,000,000 consumers use CRIF services in 50 countries - 500+ software installations</linkedin:about>
-        <linkedin:companySize>1.001-5.000 dipendenti</linkedin:companySize>
-        <linkedin:website>http://www.crif.com</linkedin:website>
-        <linkedin:placeName>CRIF</linkedin:placeName>
+        <linkedin:headquarter>Redhill, East Surrey</linkedin:headquarter>
+        <linkedin:industry>Selezione e ricerca di personale</linkedin:industry>
+        <linkedin:speciality>Staffing, Recruitment, Executive Search, Consulting, Digital Media, Interactive Entertainment, development, digital marketing, igaming, mobile, apps, software e technology</linkedin:speciality>
+        <linkedin:companySize>51-200 dipendenti</linkedin:companySize>
+        <linkedin:placeName>Pentasia</linkedin:placeName>
+        <linkedin:website>http://www.pentasia.com</linkedin:website>
+        <linkedin:about>Inspiring careers in digital. Est. 2001, we’re a specialist digital recruitment agency for leading tech, iGaming and eCommerce brands. Hiring candidates across the skill spectrum &gt;&gt; pentasia.com  ** Developers, Analysts, Digital Marketing Gurus, Salespeople, Professional Services, Project Managers, Acquisition Specialists ** We’ve placed over 7,500 individuals across 6 continents and won awards for our exceptional service.   Pentasia's clients include global online brands and emerging start-ups. With 15+ years in iGaming, our candidates lead many of the world’s most iconic brands: sportsbetting, casino, slots, poker, bingo and social gaming. As our reputation has grown, our client list now spans all specialisms within the digital sector, from eCommerce to digital media, software to analytics.  London, Malta, Dublin, Barcelona, New York, Las Vegas and Singapore - our global network of local offices make Pentasia a truly global network.   Visit pentasia.com</linkedin:about>
+        <linkedin:founded>2001</linkedin:founded>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill>
@@ -1161,16 +1193,16 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp32">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company59">
-            <linkedin:phone>+49 721 608-0 Il numero di telefono è +49 721 608-0</linkedin:phone>
-            <linkedin:placeName>Karlsruhe Institute of Technology (KIT) / University of Karlsruhe (TH)</linkedin:placeName>
-            <linkedin:about>KIT – Die Forschungsuniversität in der Helmholtz-Gemeinschaft  Als „Die Forschungsuniversität in der Helmholtz-Gemeinschaft“ schafft und vermittelt das KIT Wissen für Gesellschaft und Umwelt. Ziel ist es, zu den globalen Herausforderungen maßgebliche Beiträge in den Feldern Energie, Mobilität und Information zu leisten.  Dazu arbeiten rund 9.300 Mitarbeiterinnen und Mitarbeiter auf einer breiten disziplinären Basis in Natur-, Ingenieurs-, Wirtschafts- sowie Geistes- und Sozialwissenschaften zusammen. Seine 26.000 Studierenden bereitet das KIT durch ein forschungsorientiertes universitäres Studium auf verantwortungsvolle Aufgaben in Gesellschaft, Wirtschaft und Wissenschaft vor. Die Innovationstätigkeit am KIT schlägt die Brücke zwischen Erkenntnis und Anwendung zum gesellschaftlichen Nutzen, wirtschaftlichen Wohlstand und Erhalt unserer natürlichen Lebensgrundlagen.  Impressum: http://www.kit.edu/impressum.php</linkedin:about>
-            <linkedin:website>http://www.kit.edu</linkedin:website>
-            <linkedin:type>Istruzione</linkedin:type>
-            <linkedin:speciality>Forschung, Lehre, Innovation, Energie, Mobilität e Information</linkedin:speciality>
+          <linkedin:Company rdf:ID="company58">
             <linkedin:headquarter>Karlsruhe, Baden-Württemberg</linkedin:headquarter>
             <linkedin:founded>1825</linkedin:founded>
+            <linkedin:phone>+49 721 608-0 Il numero di telefono è +49 721 608-0</linkedin:phone>
             <linkedin:companySize>5.001-10.000 dipendenti</linkedin:companySize>
+            <linkedin:about>KIT – Die Forschungsuniversität in der Helmholtz-Gemeinschaft  Als „Die Forschungsuniversität in der Helmholtz-Gemeinschaft“ schafft und vermittelt das KIT Wissen für Gesellschaft und Umwelt. Ziel ist es, zu den globalen Herausforderungen maßgebliche Beiträge in den Feldern Energie, Mobilität und Information zu leisten.  Dazu arbeiten rund 9.300 Mitarbeiterinnen und Mitarbeiter auf einer breiten disziplinären Basis in Natur-, Ingenieurs-, Wirtschafts- sowie Geistes- und Sozialwissenschaften zusammen. Seine 26.000 Studierenden bereitet das KIT durch ein forschungsorientiertes universitäres Studium auf verantwortungsvolle Aufgaben in Gesellschaft, Wirtschaft und Wissenschaft vor. Die Innovationstätigkeit am KIT schlägt die Brücke zwischen Erkenntnis und Anwendung zum gesellschaftlichen Nutzen, wirtschaftlichen Wohlstand und Erhalt unserer natürlichen Lebensgrundlagen.  Impressum: http://www.kit.edu/impressum.php</linkedin:about>
+            <linkedin:type>Istruzione</linkedin:type>
+            <linkedin:website>http://www.kit.edu</linkedin:website>
+            <linkedin:placeName>Karlsruhe Institute of Technology (KIT) / University of Karlsruhe (TH)</linkedin:placeName>
+            <linkedin:speciality>Forschung, Lehre, Innovation, Energie, Mobilität e Information</linkedin:speciality>
             <linkedin:industry>Istruzione superiore</linkedin:industry>
           </linkedin:Company>
         </linkedin:happenedAt>
@@ -1182,18 +1214,28 @@
     </linkedin:hasWorkingExperience>
     <linkedin:location>Firenze, Toscana, Italia</linkedin:location>
     <linkedin:URL>https://www.linkedin.com/in/massimiliano-bianchini-3449b476/</linkedin:URL>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company59">
+        <linkedin:speciality>Credit Bureau Services, Credit Bureau Data Pools, Rating Agency, Credit Solutions, Fraud Prevention Solutions, Business Information, Marketing, Consultancy, Debt Collection, Real Estate Services, BPO, Insurance Solutions, Personal Solutions, Software e E-commerce</linkedin:speciality>
+        <linkedin:founded>1988</linkedin:founded>
+        <linkedin:type>Società privata non quotata</linkedin:type>
+        <linkedin:industry>Informatica e servizi</linkedin:industry>
+        <linkedin:about>CRIF is a global company specializing in credit bureau and business information, outsourcing and processing services, and credit solutions. Established in 1988 in Bologna (Italy), CRIF has an international presence, operating over four continents (Europe, America, Africa and Asia).   The mission that drives CRIF is to create value and new opportunities for consumers and businesses by providing reliable information and solutions, allowing more powerful decisions and accelerating digital innovation. Since 1988, CRIF has been responsibly supporting its clients glocally in their everyday financial journey, through trusted information, advanced cutting-edge solutions, and unique expert knowledge.  CRIF is the leading provider in continental Europe of banking credit information, one of the key players worldwide providing integrated services and solutions for business &amp; commercial information and credit &amp; marketing management, and is included in the prestigious FinTech 100, a ranking of the leading global technology solution providers to the financial services industry.  - 35+ country-based operations - 70+ subsidiary companies - 5,000+ professionals at your service   - more than 10,500 financial institutions, 1,000 insurance companies, 82,000 business clients, and 1,000,000 consumers use CRIF services in 50 countries - 500+ software installations</linkedin:about>
+        <linkedin:companySize>1.001-5.000 dipendenti</linkedin:companySize>
+        <linkedin:website>http://www.crif.com</linkedin:website>
+        <linkedin:placeName>CRIF</linkedin:placeName>
+      </linkedin:Company>
+    </linkedin:hasInterest>
     <linkedin:hasSkill rdf:resource="#skill40"/>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company62">
-        <linkedin:website>http://www.pentasia.com</linkedin:website>
-        <linkedin:industry>Selezione e ricerca di personale</linkedin:industry>
-        <linkedin:placeName>Pentasia</linkedin:placeName>
-        <linkedin:companySize>51-200 dipendenti</linkedin:companySize>
-        <linkedin:about>Inspiring careers in digital. Est. 2001, we’re a specialist digital recruitment agency for leading tech, iGaming and eCommerce brands. Hiring candidates across the skill spectrum &gt;&gt; pentasia.com  ** Developers, Analysts, Digital Marketing Gurus, Salespeople, Professional Services, Project Managers, Acquisition Specialists ** We’ve placed over 7,500 individuals across 6 continents and won awards for our exceptional service.   Pentasia's clients include global online brands and emerging start-ups. With 15+ years in iGaming, our candidates lead many of the world’s most iconic brands: sportsbetting, casino, slots, poker, bingo and social gaming. As our reputation has grown, our client list now spans all specialisms within the digital sector, from eCommerce to digital media, software to analytics.  London, Malta, Dublin, Barcelona, New York, Las Vegas and Singapore - our global network of local offices make Pentasia a truly global network.   Visit pentasia.com</linkedin:about>
-        <linkedin:type>Società privata non quotata</linkedin:type>
-        <linkedin:speciality>Staffing, Recruitment, Executive Search, Consulting, Digital Media, Interactive Entertainment, development, digital marketing, igaming, mobile, apps, software e technology</linkedin:speciality>
-        <linkedin:headquarter>Redhill, East Surrey</linkedin:headquarter>
-        <linkedin:founded>2001</linkedin:founded>
+        <linkedin:speciality>Rail vehicles, Rail infrastructure, Turnkey systems &amp; Services, Signaling, Services, Transportation, Mobility, Sustainable Mobility, Integrated Transport Systems , Signalling, Digital Mobility, Multimodality e Passenger solutions</linkedin:speciality>
+        <linkedin:type>Società quotata</linkedin:type>
+        <linkedin:industry>Trasporti su strada/ferrovia</linkedin:industry>
+        <linkedin:about>Leading societies to a low carbon future, Alstom develops and markets mobility solutions that provide the sustainable foundations for the future of transportation. Alstom’s product portfolio ranges from high-speed trains, metros, monorail and trams to integrated systems, customised services, infrastructure, signalling and digital mobility solutions. Alstom has 150,000 vehicles in commercial service worldwide. With Bombardier Transportation joining Alstom on January 29, 2021, the enlarged Group’s combined proforma revenue amounts to €14 billion for the 12-month period ended March 31, 2021. Headquartered in France, Alstom is now present in 70 countries and employs more than 70,000 people. www.alstom.com</linkedin:about>
+        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
+        <linkedin:website>http://www.alstom.com</linkedin:website>
+        <linkedin:placeName>Alstom</linkedin:placeName>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill>
@@ -1210,17 +1252,17 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp31">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company58">
-            <linkedin:founded>1321</linkedin:founded>
-            <linkedin:website>http://www.unifi.it/</linkedin:website>
-            <linkedin:headquarter>Florence, Tuscany</linkedin:headquarter>
+          <linkedin:Company rdf:ID="company57">
             <linkedin:companySize>5.001-10.000 dipendenti</linkedin:companySize>
             <linkedin:placeName>University of Florence</linkedin:placeName>
+            <linkedin:about>The University of Florence is one of the largest and most productive public research systems in Italy. This result is related to the number of permanent and temporary researchers working in a wide range of disciplinary and scientific fields, and the numerous junior scientists in training. It is also due to an intensive participation in research programmes of national and international relevance, the significant scientific results achieved, and the financial flow from outside supporting activities of research and knowledge transfer. This combination of factors qualifies the Florentine institution as a modern research university, and accounts for its excellent ranking in national and international classifications.</linkedin:about>
             <linkedin:type>Istruzione</linkedin:type>
-            <linkedin:speciality>University</linkedin:speciality>
             <linkedin:phone>3905527571 Il numero di telefono è 3905527571</linkedin:phone>
             <linkedin:industry>Istruzione superiore</linkedin:industry>
-            <linkedin:about>The University of Florence is one of the largest and most productive public research systems in Italy. This result is related to the number of permanent and temporary researchers working in a wide range of disciplinary and scientific fields, and the numerous junior scientists in training. It is also due to an intensive participation in research programmes of national and international relevance, the significant scientific results achieved, and the financial flow from outside supporting activities of research and knowledge transfer. This combination of factors qualifies the Florentine institution as a modern research university, and accounts for its excellent ranking in national and international classifications.</linkedin:about>
+            <linkedin:speciality>University</linkedin:speciality>
+            <linkedin:headquarter>Florence, Tuscany</linkedin:headquarter>
+            <linkedin:website>http://www.unifi.it/</linkedin:website>
+            <linkedin:founded>1321</linkedin:founded>
           </linkedin:Company>
         </linkedin:happenedAt>
         <linkedin:endDate>mag 2012</linkedin:endDate>
@@ -1242,7 +1284,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp30">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company57">
+          <linkedin:Company rdf:ID="company56">
             <linkedin:speciality>Registrazione nomi a dominio, PEC, Hosting, Online Brand Protection, Online Advertising, Siti Web, Email, Spid, Sicurezza Web, Server Dedicati e Cloud</linkedin:speciality>
             <linkedin:founded>1995</linkedin:founded>
             <linkedin:type>Società quotata</linkedin:type>
@@ -1263,18 +1305,19 @@
   </linkedin:Person>
   <linkedin:Person rdf:ID="person3">
     <linkedin:hasSkill rdf:resource="#skill40"/>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company30">
+        <linkedin:type>Non profit</linkedin:type>
+        <linkedin:industry>Organizzazioni civiche e sociali</linkedin:industry>
+        <linkedin:about>Is the greatest sport foll all association of Italy. Believes in a sport which doesn't depend on performance and technical result. As the name says, UISP thinks the sport is a right of all the citizens, as recently ratified also by the European Constitution.</linkedin:about>
+        <linkedin:companySize>51-200 dipendenti</linkedin:companySize>
+        <linkedin:website>http://www.uisp.it</linkedin:website>
+        <linkedin:placeName>UISP</linkedin:placeName>
+      </linkedin:Company>
+    </linkedin:hasInterest>
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp17">
-        <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company31">
-            <linkedin:type>Non profit</linkedin:type>
-            <linkedin:industry>Organizzazioni civiche e sociali</linkedin:industry>
-            <linkedin:about>Is the greatest sport foll all association of Italy. Believes in a sport which doesn't depend on performance and technical result. As the name says, UISP thinks the sport is a right of all the citizens, as recently ratified also by the European Constitution.</linkedin:about>
-            <linkedin:companySize>51-200 dipendenti</linkedin:companySize>
-            <linkedin:website>http://www.uisp.it</linkedin:website>
-            <linkedin:placeName>UISP</linkedin:placeName>
-          </linkedin:Company>
-        </linkedin:happenedAt>
+        <linkedin:happenedAt rdf:resource="#company30"/>
         <linkedin:role>Istruttore di Karate Istruttore Difesa Personale</linkedin:role>
       </linkedin:WorkingExperience>
     </linkedin:hasWorkingExperience>
@@ -1283,21 +1326,20 @@
         <linkedin:skillName>AngularJS</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
-    <linkedin:hasInterest rdf:resource="#company31"/>
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp19">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company33">
-            <linkedin:phone>055359734 Il numero di telefono è 055359734</linkedin:phone>
+          <linkedin:Company rdf:ID="company32">
+            <linkedin:industry>Ingegneria civile</linkedin:industry>
+            <linkedin:about>Aleph è una realtà aziendale che nasce nel 2008 dall'esperienza maturata negli anni precedenti da un gruppo di professionisti impegnati nel settore della pianificazione e gestione della mobilità e del territorio. Elemento caratterizzante è la proposta di un metodo di lavoro, che partendo dalle  necessità  del territorio e delle Amministrazioni che lo governano, ne identifica le soluzioni nel rispetto dell'ambiente e delle persone che lo vivono: aspetti distintivi sono  dati dal  lavorare insieme  e dal   learning by doing , ovvero imparare lavorando a stretto e continuo contatto con i propri clienti.    Professionalità e ricerca sono ulteriori elementi distintivi dell'approccio Aleph, che si ritrovano nelle principali esperienze che ogni singolo professionista ha sviluppato nel corso degli anni.</linkedin:about>
             <linkedin:companySize>2-10 dipendenti</linkedin:companySize>
             <linkedin:website>http://www.alephprogetti.com</linkedin:website>
             <linkedin:headquarter>Firenze, Provincia</linkedin:headquarter>
-            <linkedin:founded>2008</linkedin:founded>
-            <linkedin:industry>Ingegneria civile</linkedin:industry>
-            <linkedin:type>Società privata non quotata</linkedin:type>
             <linkedin:placeName>Aleph s.r.l.</linkedin:placeName>
             <linkedin:speciality>Consulenza trasportistica, Infomobilità, Progettazione, Integrazione di sistemi, Ingegneria dei Trasporti, Urbanistica, Pianificazione, studi di mobilità, Analisi Costi Benefici, previsione domanda traffico, microsimulazione traffico, studi impatto viabilità, ricostruzione domanda attuale e progettazione sistemi trasporto collettivi</linkedin:speciality>
-            <linkedin:about>Aleph è una realtà aziendale che nasce nel 2008 dall'esperienza maturata negli anni precedenti da un gruppo di professionisti impegnati nel settore della pianificazione e gestione della mobilità e del territorio. Elemento caratterizzante è la proposta di un metodo di lavoro, che partendo dalle  necessità  del territorio e delle Amministrazioni che lo governano, ne identifica le soluzioni nel rispetto dell'ambiente e delle persone che lo vivono: aspetti distintivi sono  dati dal  lavorare insieme  e dal   learning by doing , ovvero imparare lavorando a stretto e continuo contatto con i propri clienti.    Professionalità e ricerca sono ulteriori elementi distintivi dell'approccio Aleph, che si ritrovano nelle principali esperienze che ogni singolo professionista ha sviluppato nel corso degli anni.</linkedin:about>
+            <linkedin:founded>2008</linkedin:founded>
+            <linkedin:type>Società privata non quotata</linkedin:type>
+            <linkedin:phone>055359734 Il numero di telefono è 055359734</linkedin:phone>
           </linkedin:Company>
         </linkedin:happenedAt>
         <linkedin:location>Firenze, Italia</linkedin:location>
@@ -1316,31 +1358,33 @@
     <linkedin:location>Firenze, Toscana, Italia</linkedin:location>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company37">
-        <linkedin:speciality>Mobile Internet, OTT Services, Mobile Payments, Mobile Internet Apps, Web Applications, html5, Native Applications, Music, iPhone, Android, e-gaming e e-commerce</linkedin:speciality>
-        <linkedin:founded>1999</linkedin:founded>
-        <linkedin:type>Società privata non quotata</linkedin:type>
-        <linkedin:industry>Telecomunicazioni</linkedin:industry>
-        <linkedin:about>We are committed to enhance people’s digital life.    Founded in 1999, Buongiorno is known as a world class leader in m-commerce for developing and managing payments and apps which enhance consumers’ satisfaction in the use of their mobile devices. Since July 2012, after a successful public offering acquisition, it now forms part of NTT DOCOMO, a Japan based global leader in mobile technologies and communications services.    With direct connection to more than 130 telecommunications operators in 25 countries and over 15 years’ experience in the mobile ecosystem , Buongiorno makes the mobile internet experience frictionless and exciting.  Our mission is to delight digital users and create value in OverTheTop Services, Mobile Payments and Financial Services.    As a wholly-owned subsidiary of NTT DOCOMO Buongiorno shares the same vision of becoming a true smart life partner for all our customers.</linkedin:about>
-        <linkedin:companySize>501-1.000 dipendenti</linkedin:companySize>
-        <linkedin:website>http://www.buongiorno.com</linkedin:website>
-        <linkedin:placeName>Buongiorno</linkedin:placeName>
+        <linkedin:about>La Coltelleria Collini, azienda nata a Busto Arsizio nel 1968 e specializzata da oltre 45 anni nella coltelleria e negli articoli per casalinghi, offre alla propria clientela una vasta gamma di prodotti di ottima qualità e delle migliori marche.  Grazie ad un suo laboratorio interno e all’abilità e all’esperienza dei titolari nell’affilare lame di ogni genere, (forbici, coltelli di tutti i tipi, tronchesini, tosatrici, sgorbie per calli ecc..) la Coltelleria Collini è oggi un punto di riferimento a livello mondiale per privati e professionisti che vogliono acquistare strumenti efficienti ed estremamente taglienti.  La Coltelleria Collini è presente a Busto Arsizio in via F. Cavallotti 1 (in centro) con due negozi fisici. Uno dedicato alla coltelleria professionale e collezione, alle torce a led, alle spade e ai prodotti ufficiali tratti da film. L'altro dedicato agli articoli per la cucina, agli strumenti per la manicure e pedicure, alle tosatrici e taglia capelli, agli articoli da regalo.   Nel 1999 Rudy Collini inizia la realizzazione del sito Internet www.coltelleriacollini.it che il 12 febbraio 2000 sarà ufficialmente on-line. Primo sito in Italia dedicato alla vendita su Internet di coltelli, spade, articoli da taglio e per la casa.   Con quasi 50 anni di esperienza in questo settore e oltre 15 anni di attività on-line, la Coltelleria Collini di Busto Arsizio è oggi uno dei principali punti di riferimento in Italia e a livello internazionale.</linkedin:about>
+        <linkedin:founded>1968</linkedin:founded>
+        <linkedin:phone>0331632686 Il numero di telefono è 0331632686</linkedin:phone>
+        <linkedin:type>Società di persone</linkedin:type>
+        <linkedin:website>https://www.coltelleriacollini.it</linkedin:website>
+        <linkedin:placeName>Coltelleria Collini</linkedin:placeName>
+        <linkedin:headquarter>Busto Arsizio, Va</linkedin:headquarter>
+        <linkedin:companySize>2-10 dipendenti</linkedin:companySize>
+        <linkedin:speciality>coltelleria, articoli da regalo, torce, spade, katana, prodotti tratti da film, harry potter, casalinghi, tosatrici, articoli manicure, forbici, knives, knife, swords, messer, coltelli cucina, kitchen knives, torcia e torcia</linkedin:speciality>
+        <linkedin:industry>Commercio al dettaglio</linkedin:industry>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:firstName>Fabio</linkedin:firstName>
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp16">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company30">
+          <linkedin:Company rdf:ID="company29">
+            <linkedin:about>Il gruppo Frigel è composto da aziende italiane ed estere il cui scopo è la progettazione, produzione, installazione, vendita e assistenza di sistemi e soluzioni per il raffreddamento di processo e il controllo della temperatura, utilizzati per controllare le temperature di processi industriali.  I prodotti e soluzioni Frigel sono progettati per soddisfare i requisiti di raffreddamento e controllo della temperatura di settori come: plastica e gomma, alimenti e bevande, generazione e trasmissione di energia, data center, prodotti chimici e farmaceutici, metalli e altri. Frigel ha maturato una conoscenza approfondita dei fabbisogni termodinamici in processi industriali, consentendole di progettare apparecchiature e sistemi “su misura per l'applicazione”, per soddisfare ogni processo. Quattro fattori chiave guidano la progettazione di soluzioni ottimali per ogni cliente, ovvero produttività, efficienza, sostenibilità e affidabilità.  Lo scopo (Mission) di Frigel è quello di  Contribuire a realizzare un'industria più efficiente e sostenibile  La Vision di Frigel è quella di  essere un innovatore globale di soluzioni ingegneristiche ad alte prestazioni, sostenibili e di qualità per il raffreddamento di processo e le tecnologie di controllo della temperatura .  Il gruppo Frigel comprende diversi siti di produzione, vendita, ingegneria ed assistenza, in quattro continenti: Frigel Firenze S.p.A., (Firenze - Italia) – sede centrale, produzione, ingegneria, vendita e assistenza Frigel Firenze S.p.A., (Padova - Italia) - produzione Frigel GmbH (Germania) - ingegneria, vendita e assistenza Frigel Eastern Europe Sp. z o.o. (Polonia) - ingegneria, vendita, assistenza Frigel North America Inc., (USA) - ingegneria, vendita, assistenza Frigel Asia Pacific Ltd, (Tailandia) - produzione, ingegneria, vendita, assistenza Frigel Latino America Ltda, (Brasile) - ingegneria, vendita, assistenza Frigel Intelligent Cooling Systems Pvt Ltd (India) - produzione, ingegneria vendita e assistenza</linkedin:about>
             <linkedin:headquarter>Scandicci, Toscana</linkedin:headquarter>
+            <linkedin:phone>+39 055 722091 Il numero di telefono è +39 055 722091</linkedin:phone>
             <linkedin:website>https://www.frigel.com</linkedin:website>
-            <linkedin:industry>Macchinari industriali</linkedin:industry>
             <linkedin:founded>1960</linkedin:founded>
+            <linkedin:type>Società privata non quotata</linkedin:type>
+            <linkedin:industry>Macchinari industriali</linkedin:industry>
             <linkedin:speciality>Process Cooling Equipment, Central Cooling Systems, Machine-Side Cooling Equipment, Portable Chillers, industrial cooling systems, Adiabatic cooler, Plastic, Beverage, adiabatic cooling system, heat rejection systems, data centers cooling e gas turbine cooling</linkedin:speciality>
             <linkedin:placeName>Frigel Group</linkedin:placeName>
             <linkedin:companySize>201-500 dipendenti</linkedin:companySize>
-            <linkedin:type>Società privata non quotata</linkedin:type>
-            <linkedin:about>Il gruppo Frigel è composto da aziende italiane ed estere il cui scopo è la progettazione, produzione, installazione, vendita e assistenza di sistemi e soluzioni per il raffreddamento di processo e il controllo della temperatura, utilizzati per controllare le temperature di processi industriali.  I prodotti e soluzioni Frigel sono progettati per soddisfare i requisiti di raffreddamento e controllo della temperatura di settori come: plastica e gomma, alimenti e bevande, generazione e trasmissione di energia, data center, prodotti chimici e farmaceutici, metalli e altri. Frigel ha maturato una conoscenza approfondita dei fabbisogni termodinamici in processi industriali, consentendole di progettare apparecchiature e sistemi “su misura per l'applicazione”, per soddisfare ogni processo. Quattro fattori chiave guidano la progettazione di soluzioni ottimali per ogni cliente, ovvero produttività, efficienza, sostenibilità e affidabilità.  Lo scopo (Mission) di Frigel è quello di  Contribuire a realizzare un'industria più efficiente e sostenibile  La Vision di Frigel è quella di  essere un innovatore globale di soluzioni ingegneristiche ad alte prestazioni, sostenibili e di qualità per il raffreddamento di processo e le tecnologie di controllo della temperatura .  Il gruppo Frigel comprende diversi siti di produzione, vendita, ingegneria ed assistenza, in quattro continenti: Frigel Firenze S.p.A., (Firenze - Italia) – sede centrale, produzione, ingegneria, vendita e assistenza Frigel Firenze S.p.A., (Padova - Italia) - produzione Frigel GmbH (Germania) - ingegneria, vendita e assistenza Frigel Eastern Europe Sp. z o.o. (Polonia) - ingegneria, vendita, assistenza Frigel North America Inc., (USA) - ingegneria, vendita, assistenza Frigel Asia Pacific Ltd, (Tailandia) - produzione, ingegneria, vendita, assistenza Frigel Latino America Ltda, (Brasile) - ingegneria, vendita, assistenza Frigel Intelligent Cooling Systems Pvt Ltd (India) - produzione, ingegneria vendita e assistenza</linkedin:about>
-            <linkedin:phone>+39 055 722091 Il numero di telefono è +39 055 722091</linkedin:phone>
           </linkedin:Company>
         </linkedin:happenedAt>
         <linkedin:location>Firenze, Italia</linkedin:location>
@@ -1352,7 +1396,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp15">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company29">
+          <linkedin:Company rdf:ID="company28">
             <linkedin:founded>2015</linkedin:founded>
             <linkedin:type>Società privata non quotata</linkedin:type>
             <linkedin:headquarter>Firenze, Toscana</linkedin:headquarter>
@@ -1373,16 +1417,16 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp18">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company32">
-            <linkedin:industry>Servizi finanziari</linkedin:industry>
-            <linkedin:about>DOCOMO Digital è la filiale internazione dei pagamenti di NTT DOCOMO. Colloboriamo in tutto il mondo con operatori telefonici, esercenti online, servizi OTT, app stores e fornitori di servizi di pagamento sia in mercati sviluppati che emergenti.  Risolviamo sfide relative all’acquisizione e fidelizzazione dei clienti, alla regolamentazione e alle complessità dei nostri partner grazie all’utilizzo di sistemi di pagamento alternativi quali direct carrier billing e portafogli elettronici.  Grazie al nostro team di esperti dislocati su 15 nazioni diverse,  aiutiamo i nostri partner a far crescere i ricavi da servizi digitali migliorando l’esperienza dei loro clienti. La nostra solida piattaforma di servizi unita alla nostra copertura di operatori telefonici e dei principali metodi di pagamento locali, consentono di ottenere un lancio sul mercato più rapido, specialmente per fornitori di servizi di streaming, di giochi online, di commercio elettronico e di produttività.  DOCOMO Digital è una società interamente controllata da una delle otto principali società di telefonia al mondo, NTT DOCOMO, quotata alla borsa di Tokyo.</linkedin:about>
+          <linkedin:Company rdf:ID="company31">
             <linkedin:founded>2009</linkedin:founded>
+            <linkedin:speciality>Direct Carrier Billing, Mobile Payments, e-Commerce, e-Wallet, Mobile Internet Apps, Web Applications, Native Applications, Mobile Commerce, m-Commerce, Digital Marketing Solutions, Mobile Operator Billing, kyc, AppStore Integration, Direct Wallet Billing e OTT Integration</linkedin:speciality>
+            <linkedin:companySize>201-500 dipendenti</linkedin:companySize>
             <linkedin:type>Società privata non quotata</linkedin:type>
+            <linkedin:about>DOCOMO Digital è la filiale internazione dei pagamenti di NTT DOCOMO. Colloboriamo in tutto il mondo con operatori telefonici, esercenti online, servizi OTT, app stores e fornitori di servizi di pagamento sia in mercati sviluppati che emergenti.  Risolviamo sfide relative all’acquisizione e fidelizzazione dei clienti, alla regolamentazione e alle complessità dei nostri partner grazie all’utilizzo di sistemi di pagamento alternativi quali direct carrier billing e portafogli elettronici.  Grazie al nostro team di esperti dislocati su 15 nazioni diverse,  aiutiamo i nostri partner a far crescere i ricavi da servizi digitali migliorando l’esperienza dei loro clienti. La nostra solida piattaforma di servizi unita alla nostra copertura di operatori telefonici e dei principali metodi di pagamento locali, consentono di ottenere un lancio sul mercato più rapido, specialmente per fornitori di servizi di streaming, di giochi online, di commercio elettronico e di produttività.  DOCOMO Digital è una società interamente controllata da una delle otto principali società di telefonia al mondo, NTT DOCOMO, quotata alla borsa di Tokyo.</linkedin:about>
+            <linkedin:website>http://www.docomodigital.com</linkedin:website>
+            <linkedin:industry>Servizi finanziari</linkedin:industry>
             <linkedin:placeName>DOCOMO Digital</linkedin:placeName>
             <linkedin:headquarter>London, England</linkedin:headquarter>
-            <linkedin:website>http://www.docomodigital.com</linkedin:website>
-            <linkedin:companySize>201-500 dipendenti</linkedin:companySize>
-            <linkedin:speciality>Direct Carrier Billing, Mobile Payments, e-Commerce, e-Wallet, Mobile Internet Apps, Web Applications, Native Applications, Mobile Commerce, m-Commerce, Digital Marketing Solutions, Mobile Operator Billing, kyc, AppStore Integration, Direct Wallet Billing e OTT Integration</linkedin:speciality>
           </linkedin:Company>
         </linkedin:happenedAt>
         <linkedin:location>Firenze, Italia</linkedin:location>
@@ -1391,38 +1435,49 @@
         <linkedin:role>Fullstack Developer</linkedin:role>
       </linkedin:WorkingExperience>
     </linkedin:hasWorkingExperience>
-    <linkedin:hasInterest rdf:resource="#company26"/>
     <linkedin:hasEducationExperience>
       <linkedin:EducationExperience rdf:ID="eduExp4">
         <linkedin:happenedAt rdf:resource="#school4"/>
         <linkedin:role>Dottore in Informatica</linkedin:role>
       </linkedin:EducationExperience>
     </linkedin:hasEducationExperience>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company35">
+        <linkedin:industry>Istruzione superiore</linkedin:industry>
+        <linkedin:founded>1343</linkedin:founded>
+        <linkedin:headquarter>Pisa, Tuscany</linkedin:headquarter>
+        <linkedin:type>Istruzione</linkedin:type>
+        <linkedin:website>http://www.unipi.it/</linkedin:website>
+        <linkedin:companySize>1.001-5.000 dipendenti</linkedin:companySize>
+        <linkedin:about>The University of Pisa, formally established in 1343, is one of the oldest universities in the world and it has been extraordinarily successful in updating its structures and human resources in order to meet the new challenges of international research and education at the highest level.   It has an excellent international reputation in all areas, not only in natural sciences but also for example in humanities, social sciences, medicine, engineering, agricultural and other applied sciences. It leads important international research and education networks, and incorporates their findings into its programmes. The University of Pisa is committed to promoting quality in all areas of research and teaching, and to making all its programmes available to an increasing number of international students and researchers.  Nowadays it is organised in 20 departments. It has about 54.000 students, 1517 faculty members, and 1477 technical and administrative staff members. It offers 127 bachelor and master programmes, and 20 PhD programmes, along with 56 third cycle specialisation programmes, and about 55 post graduate programmes, including an MBA.   The city of Pisa, where our University has always had its roots, offers students and researchers an ideal environment for living, studying and working: Pisa has a pleasant climate, excellent food and world famous cultural and leisure attractions. Both sea and the mountains are close by, as are the cities, museum, monuments and the beautiful countryside for which Tuscany is rightly celebrated.  With its large and intellectually stimulating scholarly community, Pisa is an attractive environment for researchers in all fields.</linkedin:about>
+        <linkedin:phone>390502212111 Il numero di telefono è 390502212111</linkedin:phone>
+        <linkedin:placeName>Università di Pisa</linkedin:placeName>
+      </linkedin:Company>
+    </linkedin:hasInterest>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill63">
         <linkedin:skillName>Vue.js</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
     <linkedin:secondName>Fognani</linkedin:secondName>
-    <linkedin:hasInterest>
-      <linkedin:Company rdf:ID="company38">
-        <linkedin:headquarter>Pisa, Tuscany</linkedin:headquarter>
-        <linkedin:industry>Istruzione superiore</linkedin:industry>
-        <linkedin:phone>390502212111 Il numero di telefono è 390502212111</linkedin:phone>
-        <linkedin:founded>1343</linkedin:founded>
-        <linkedin:placeName>Università di Pisa</linkedin:placeName>
-        <linkedin:companySize>1.001-5.000 dipendenti</linkedin:companySize>
-        <linkedin:website>http://www.unipi.it/</linkedin:website>
-        <linkedin:type>Istruzione</linkedin:type>
-        <linkedin:about>The University of Pisa, formally established in 1343, is one of the oldest universities in the world and it has been extraordinarily successful in updating its structures and human resources in order to meet the new challenges of international research and education at the highest level.   It has an excellent international reputation in all areas, not only in natural sciences but also for example in humanities, social sciences, medicine, engineering, agricultural and other applied sciences. It leads important international research and education networks, and incorporates their findings into its programmes. The University of Pisa is committed to promoting quality in all areas of research and teaching, and to making all its programmes available to an increasing number of international students and researchers.  Nowadays it is organised in 20 departments. It has about 54.000 students, 1517 faculty members, and 1477 technical and administrative staff members. It offers 127 bachelor and master programmes, and 20 PhD programmes, along with 56 third cycle specialisation programmes, and about 55 post graduate programmes, including an MBA.   The city of Pisa, where our University has always had its roots, offers students and researchers an ideal environment for living, studying and working: Pisa has a pleasant climate, excellent food and world famous cultural and leisure attractions. Both sea and the mountains are close by, as are the cities, museum, monuments and the beautiful countryside for which Tuscany is rightly celebrated.  With its large and intellectually stimulating scholarly community, Pisa is an attractive environment for researchers in all fields.</linkedin:about>
-      </linkedin:Company>
-    </linkedin:hasInterest>
     <linkedin:URL>https://www.linkedin.com/in/fabio-fognani-ba461b51/</linkedin:URL>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill61">
         <linkedin:skillName>Typescript</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company36">
+        <linkedin:speciality>Healthcare, Internet, Online healthcare bookings e Sales</linkedin:speciality>
+        <linkedin:type>Società privata non quotata</linkedin:type>
+        <linkedin:headquarter>Warszawa, mazowieckie</linkedin:headquarter>
+        <linkedin:industry>Internet</linkedin:industry>
+        <linkedin:about>With over 60 million unique patients and over 5 million bookings every month, Docplanner is the leading healthcare booking platform globally. We list more than 2 million healthcare professionals with a total of 2 million patient reviews on our websites in 12 countries.  The company was founded in 2012 in Poland and now boasts a team of more than 1,500 based across offices in Warsaw, Barcelona, Istanbul, Rome, Mexico City, Curitiba and Bologna.  With a global mission to ‘make the healthcare experience more human’ DocPlanner provides free doctor reviews and booking for patients via its online marketplace. In addition, it offers doctors and clinics a SaaS tool used to optimise their patient flow, reduce no-shows, and digitize their practices in order to be able to spend more time with the patient and ultimately improve healthcare outcomes. Via its TuoTempo brand, the company offers a more sophisticated suite of optimisation products for large healthcare institutions.  DocPlanner is backed by leading venture capital funds including Point Nine Capital, Goldman Sachs Private Capital and One Peak Partners, raising a total of €130 million to date. Our management team includes individuals who launched and developed the biggest startups in Spain, Poland, Turkey and Italy (e.g. goldenline.pl, doktortakvimi.com, groupon.it, econozco.com).</linkedin:about>
+        <linkedin:companySize>1.001-5.000 dipendenti</linkedin:companySize>
+        <linkedin:website>http://www.Docplanner.com</linkedin:website>
+        <linkedin:placeName>DocPlanner</linkedin:placeName>
+      </linkedin:Company>
+    </linkedin:hasInterest>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company34">
         <linkedin:speciality>Video Games, Video Game Development, Video Game Production, Video Game Marketing, Video Game Design, Level Design, Programming, Online Programming, Transmedia, Art, Audio, IT, Marketing, Community Management, Production e Creativity</linkedin:speciality>
@@ -1447,7 +1502,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp10">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company19">
+          <linkedin:Company rdf:ID="company18">
             <linkedin:placeName>Carrot</linkedin:placeName>
           </linkedin:Company>
         </linkedin:happenedAt>
@@ -1472,6 +1527,7 @@
         <linkedin:skillName>iOS Development</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
+    <linkedin:hasInterest rdf:resource="#company5"/>
     <linkedin:hasSkill rdf:resource="#skill55"/>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill59">
@@ -1493,12 +1549,12 @@
     </linkedin:hasSkill>
     <linkedin:hasSkill rdf:resource="#skill38"/>
     <linkedin:location>Livorno, Toscana, Italia</linkedin:location>
-    <linkedin:URL>https://www.linkedin.com/in/iacopocarraro/</linkedin:URL>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill54">
         <linkedin:skillName>Javascript</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
+    <linkedin:URL>https://www.linkedin.com/in/iacopocarraro/?originalSubdomain=it</linkedin:URL>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company25">
         <linkedin:speciality>Open Innovation, Education, Investments e Consultancy</linkedin:speciality>
@@ -1510,6 +1566,18 @@
         <linkedin:about>Siamo la piattaforma d'innovazione in grado di supportare la creazione di nuovi modelli d’impresa e la trasformazione ed educazione dei giovani e delle aziende italiane in un'ottica digitale.   Nati nel gennaio 2005 come primo incubatore di startup al mondo, abbiamo saputo rinnovarci e adattarci alle esigenze di mercato senza mai perdere di vista i valori portanti che stanno nel cogliere le opportunità indotte dall'innovazione digitale e nel mantenere un approccio Human centric.   Oggi siamo l’unica realtà al mondo che unisce in un unico luogo investimenti, servizi per le imprese e formazione. Il nostro campus, alle porte di Venezia, si estende su 51 ettari, di cui 20 di area boschiva.  Contiamo oltre 600 persone che lavorano in territorio italiano e siamo considerati un unicum a livello internazionale.</linkedin:about>
         <linkedin:type>Società quotata</linkedin:type>
         <linkedin:companySize>501-1.000 dipendenti</linkedin:companySize>
+      </linkedin:Company>
+    </linkedin:hasInterest>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company27">
+        <linkedin:founded>2008</linkedin:founded>
+        <linkedin:type>Società privata non quotata</linkedin:type>
+        <linkedin:headquarter>San Francisco, CA</linkedin:headquarter>
+        <linkedin:industry>Software</linkedin:industry>
+        <linkedin:about>GitHub is the best place to share code with friends, co-workers, classmates, and complete strangers. Over 31 million people use GitHub to build amazing things together across 97+ million repositories. With all the collaborative features of GitHub, it has never been easier for individuals and teams to write faster, better code.</linkedin:about>
+        <linkedin:companySize>501-1.000 dipendenti</linkedin:companySize>
+        <linkedin:website>https://github.com</linkedin:website>
+        <linkedin:placeName>GitHub</linkedin:placeName>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill>
@@ -1530,7 +1598,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp11">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company20">
+          <linkedin:Company rdf:ID="company19">
             <linkedin:speciality>Software, Services, Quality, Mobility, Social, Authenticity, Simplicity e Privacy</linkedin:speciality>
             <linkedin:founded>2010</linkedin:founded>
             <linkedin:type>Società privata non quotata</linkedin:type>
@@ -1558,7 +1626,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp12">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company21">
+          <linkedin:Company rdf:ID="company20">
             <linkedin:placeName>TalkTo, Inc.</linkedin:placeName>
           </linkedin:Company>
         </linkedin:happenedAt>
@@ -1577,7 +1645,6 @@
         <linkedin:skillName>iOS</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
-    <linkedin:hasInterest rdf:resource="#company20"/>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill33">
         <linkedin:skillName>Polymer</linkedin:skillName>
@@ -1591,15 +1658,14 @@
     <linkedin:hasSkill rdf:resource="#skill49"/>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company24">
-        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
-        <linkedin:speciality>Innovative Product Development, World-Class Operations, Retail e Telephone Support</linkedin:speciality>
-        <linkedin:type>Società quotata</linkedin:type>
-        <linkedin:industry>Elettronica di consumo</linkedin:industry>
-        <linkedin:placeName>Apple</linkedin:placeName>
-        <linkedin:about>We’re a diverse collective of thinkers and doers, continually reimagining what’s possible to help us all do what we love in new ways. And the same innovation that goes into our products also applies to our practices — strengthening our commitment to leave the world better than we found it. This is where your work can make a difference in people’s lives. Including your own.  Apple is an equal opportunity employer that is committed to inclusion and diversity. Visit apple.com/careers to learn more.</linkedin:about>
-        <linkedin:website>http://www.apple.com/careers</linkedin:website>
-        <linkedin:headquarter>Cupertino, California</linkedin:headquarter>
-        <linkedin:founded>1976</linkedin:founded>
+        <linkedin:speciality>lyrics, music, music metadata, entertainment, music intelligence, artificial intelligence e community</linkedin:speciality>
+        <linkedin:founded>2010</linkedin:founded>
+        <linkedin:type>Società privata non quotata</linkedin:type>
+        <linkedin:industry>Intrattenimento</linkedin:industry>
+        <linkedin:about>Musixmatch is the global leading music data company based in Bologna, London and San Francisco.  The company focuses on building the world's largest music metadata and lyrics database using latest AI &amp; machine learning technology.  Musixmatch has +70M users worldwide throughout all consumer platforms: iOS, Android, Web, and TV.   Musixmatch has global agreements with Apple Music, Amazon Music, Instagram, Google Search and Spotify with the goal of enhancing the global consumer music experience.  Musixmatch also license rights from all major music publishers like Universal, Sony-EMI, Warner Chappell and BMG Rights plus 10K independent music publishers around the world.  Awards: Best App Apple Store 2013, Best App Google Play 2014, 2015, 2018, Google i/O 2016 Google Award Nominee, FB Start Europe Winner.</linkedin:about>
+        <linkedin:companySize>51-200 dipendenti</linkedin:companySize>
+        <linkedin:website>http://www.musixmatch.com</linkedin:website>
+        <linkedin:placeName>Musixmatch</linkedin:placeName>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill>
@@ -1611,17 +1677,17 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp14">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company23">
-            <linkedin:headquarter>Firenze, FI</linkedin:headquarter>
-            <linkedin:placeName>Image</linkedin:placeName>
-            <linkedin:founded>1997</linkedin:founded>
+          <linkedin:Company rdf:ID="company22">
             <linkedin:speciality>Communications in architecture, Strategic international media advisor for architects and institutions, PR, Media Relations and Social Networking for architects, Creative and strategic consultancy for architects e Architecture culture</linkedin:speciality>
-            <linkedin:companySize>2-10 dipendenti</linkedin:companySize>
-            <linkedin:phone>+39 055 4684 187 Il numero di telefono è +39 055 4684 187</linkedin:phone>
-            <linkedin:about>Image was founded in 1997 in Florence, Italy, as a team of architects and scholars with a passion for communication, narrative, and public relations. Its approach has always been animated by the search of new paths for disseminating architectural design culture.   Image has launched and produced contents for a series of extraordinary communication projects, such as arch’it (1995), one of the very first architecture webzines worldwide, the Beyond Media festival (1997), one of the main events worldwide devoted to architecture videos, and The Architecture Player (2015), a place to disclose new architecture stories, through video (www.architectureplayer.com).   Over the past 20+ years, Image has fostered cultural collaborations and delivered results for a wide range of clients, including architecture firms, museums, municipalities, cultural events, design brands and more. It consults for institutions in making communication-based architecture competitions, and offers its expertise for consulting services aimed at making the role of architecture in global society more alive.  Cultivar (www.cultivar.agency), its latest project started in 2020, has been conceived having at heart the creative development of emerging and established architecture practices, and inspired by a profound understanding of the role of communication of architecture towards global environmental perspectives.  Headquartered in Florence with an international reach, Cultivar offers global press relations and strategic media campaigns for the worlds of architecture, construction and design.</linkedin:about>
-            <linkedin:industry>Architettura e progettazione</linkedin:industry>
+            <linkedin:placeName>Image</linkedin:placeName>
             <linkedin:type>Società di persone</linkedin:type>
+            <linkedin:phone>+39 055 4684 187 Il numero di telefono è +39 055 4684 187</linkedin:phone>
+            <linkedin:headquarter>Firenze, FI</linkedin:headquarter>
+            <linkedin:about>Image was founded in 1997 in Florence, Italy, as a team of architects and scholars with a passion for communication, narrative, and public relations. Its approach has always been animated by the search of new paths for disseminating architectural design culture.   Image has launched and produced contents for a series of extraordinary communication projects, such as arch’it (1995), one of the very first architecture webzines worldwide, the Beyond Media festival (1997), one of the main events worldwide devoted to architecture videos, and The Architecture Player (2015), a place to disclose new architecture stories, through video (www.architectureplayer.com).   Over the past 20+ years, Image has fostered cultural collaborations and delivered results for a wide range of clients, including architecture firms, museums, municipalities, cultural events, design brands and more. It consults for institutions in making communication-based architecture competitions, and offers its expertise for consulting services aimed at making the role of architecture in global society more alive.  Cultivar (www.cultivar.agency), its latest project started in 2020, has been conceived having at heart the creative development of emerging and established architecture practices, and inspired by a profound understanding of the role of communication of architecture towards global environmental perspectives.  Headquartered in Florence with an international reach, Cultivar offers global press relations and strategic media campaigns for the worlds of architecture, construction and design.</linkedin:about>
+            <linkedin:companySize>2-10 dipendenti</linkedin:companySize>
             <linkedin:website>http://www.imageforculture.com</linkedin:website>
+            <linkedin:industry>Architettura e progettazione</linkedin:industry>
+            <linkedin:founded>1997</linkedin:founded>
           </linkedin:Company>
         </linkedin:happenedAt>
         <linkedin:endDate>ott 2011</linkedin:endDate>
@@ -1647,7 +1713,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp13">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company22">
+          <linkedin:Company rdf:ID="company21">
             <linkedin:speciality>Startup, Accelerator, internet, digital advertsing, mobile technology e coworking</linkedin:speciality>
             <linkedin:founded>2012</linkedin:founded>
             <linkedin:type>Società privata non quotata</linkedin:type>
@@ -1690,17 +1756,17 @@
         <linkedin:skillName>Android Development</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
-    <linkedin:hasInterest rdf:resource="#company26"/>
     <linkedin:hasInterest>
-      <linkedin:Company rdf:ID="company28">
-        <linkedin:founded>2008</linkedin:founded>
-        <linkedin:type>Società privata non quotata</linkedin:type>
-        <linkedin:headquarter>San Francisco, CA</linkedin:headquarter>
-        <linkedin:industry>Software</linkedin:industry>
-        <linkedin:about>GitHub is the best place to share code with friends, co-workers, classmates, and complete strangers. Over 31 million people use GitHub to build amazing things together across 97+ million repositories. With all the collaborative features of GitHub, it has never been easier for individuals and teams to write faster, better code.</linkedin:about>
-        <linkedin:companySize>501-1.000 dipendenti</linkedin:companySize>
-        <linkedin:website>https://github.com</linkedin:website>
-        <linkedin:placeName>GitHub</linkedin:placeName>
+      <linkedin:Company rdf:ID="company26">
+        <linkedin:type>Società quotata</linkedin:type>
+        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
+        <linkedin:website>http://www.apple.com/careers</linkedin:website>
+        <linkedin:about>We’re a diverse collective of thinkers and doers, continually reimagining what’s possible to help us all do what we love in new ways. And the same innovation that goes into our products also applies to our practices — strengthening our commitment to leave the world better than we found it. This is where your work can make a difference in people’s lives. Including your own.  Apple is an equal opportunity employer that is committed to inclusion and diversity. Visit apple.com/careers to learn more.</linkedin:about>
+        <linkedin:placeName>Apple</linkedin:placeName>
+        <linkedin:industry>Elettronica di consumo</linkedin:industry>
+        <linkedin:founded>1976</linkedin:founded>
+        <linkedin:headquarter>Cupertino, California</linkedin:headquarter>
+        <linkedin:speciality>Innovative Product Development, World-Class Operations, Retail e Telephone Support</linkedin:speciality>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill rdf:resource="#skill23"/>
@@ -1724,7 +1790,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp24">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company43">
+          <linkedin:Company rdf:ID="company42">
             <linkedin:speciality>Products telecom, accessories, smartphones and tablets e friendly chat about technology</linkedin:speciality>
             <linkedin:founded>2007</linkedin:founded>
             <linkedin:type>Società privata non quotata</linkedin:type>
@@ -1763,10 +1829,22 @@
         <linkedin:skillName>Figma</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company43">
+        <linkedin:speciality>Contact Center, Technical support, Autsorsing, R&amp;D, Integration, Omnichannel, WebEx, IoT, Information Security, Data Center, Business Communications, Telecommunications e Audit and consulting</linkedin:speciality>
+        <linkedin:founded>2002</linkedin:founded>
+        <linkedin:type>Società privata non quotata</linkedin:type>
+        <linkedin:industry>Informatica e servizi</linkedin:industry>
+        <linkedin:about>CTI — COMMUNICATIONS. TECHNOLOGY. INNOVATIONS. Компания CTI – ведущий системный интегратор, поставщик ИT-решений и облачных услуг на территории России и стран СНГ. Входит в ТОП 40 крупнейших ИТ-компаний России.  Компания имеет более чем 18-летний опыт реализации и поддержки комплексных проектов различного масштаба и уровня сложности по таким направлениям как бизнес-коммуникации и контакт-центры, телекоммуникационные и сетевые решения, информационная безопасность, центры обработки и хранения данных, Интернет вещей, системы видеонаблюдения и аналитики, комплексный аутсорсинг.   CTI ориентируется на эффективное решение бизнес-задач клиента. Инновационные сервисы и услуги, которые предлагает CTI, позволяют оптимизировать бизнес-процессы заказчика и повысить экономическую эффективность, а также способствуют решению задач, связанных с качеством обслуживания клиентов, повышением их удовлетворенности и лояльности.</linkedin:about>
+        <linkedin:companySize>201-500 dipendenti</linkedin:companySize>
+        <linkedin:website>http://www.cti.ru</linkedin:website>
+        <linkedin:placeName>CTI - Communications.Technology.Innovations.</linkedin:placeName>
+      </linkedin:Company>
+    </linkedin:hasInterest>
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp21">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company40">
+          <linkedin:Company rdf:ID="company39">
             <linkedin:founded>2018</linkedin:founded>
             <linkedin:type>Società privata non quotata</linkedin:type>
             <linkedin:headquarter>Warszawa, Śródmieście</linkedin:headquarter>
@@ -1790,7 +1868,7 @@
     </linkedin:hasSkill>
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp20">
-        <linkedin:happenedAt rdf:resource="#company39"/>
+        <linkedin:happenedAt rdf:resource="#company38"/>
         <linkedin:location>Florence, Tuscany, Italy</linkedin:location>
         <linkedin:endDate>Sep 2021</linkedin:endDate>
         <linkedin:startDate>dic 2020</linkedin:startDate>
@@ -1798,18 +1876,6 @@
       </linkedin:WorkingExperience>
     </linkedin:hasWorkingExperience>
     <linkedin:secondName>Svit</linkedin:secondName>
-    <linkedin:hasInterest>
-      <linkedin:Company rdf:ID="company45">
-        <linkedin:founded>2018</linkedin:founded>
-        <linkedin:type>Lavoratore autonomo</linkedin:type>
-        <linkedin:headquarter>Киев, Киевская</linkedin:headquarter>
-        <linkedin:industry>Commercio al dettaglio</linkedin:industry>
-        <linkedin:about>В нашем электронном каталоге вы найдете весь ассортимент производителя, а также самые лучшие аксессуары для iPhone, Mac, iPad, Apple Watch. Наша команда является преданными фанатами устройств из Купертино с многолетним стажем. Мы сможем ответить на все  Apple ​ вопросы и создать для Вас уникальную, самую полноценную экосистему на рынке персональной электроники от компании Apple.</linkedin:about>
-        <linkedin:companySize>2-10 dipendenti</linkedin:companySize>
-        <linkedin:website>http://www.macfan.com.ua</linkedin:website>
-        <linkedin:placeName>MACFAN</linkedin:placeName>
-      </linkedin:Company>
-    </linkedin:hasInterest>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill96">
         <linkedin:skillName>Mobile App Development</linkedin:skillName>
@@ -1820,7 +1886,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp23">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company42">
+          <linkedin:Company rdf:ID="company41">
             <linkedin:placeName>Live Animations</linkedin:placeName>
           </linkedin:Company>
         </linkedin:happenedAt>
@@ -1839,7 +1905,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp22">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company41">
+          <linkedin:Company rdf:ID="company40">
             <linkedin:founded>2017</linkedin:founded>
             <linkedin:type>Società quotata</linkedin:type>
             <linkedin:headquarter>Kyiv, Kyivs'ka</linkedin:headquarter>
@@ -1866,7 +1932,6 @@
         <linkedin:skillName>Android</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
-    <linkedin:hasInterest rdf:resource="#company16"/>
     <linkedin:hasSkill rdf:resource="#skill32"/>
     <linkedin:hasSkill rdf:resource="#skill50"/>
     <linkedin:hasSkill>
@@ -1896,14 +1961,14 @@
     </linkedin:hasSkill>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company44">
-        <linkedin:speciality>Contact Center, Technical support, Autsorsing, R&amp;D, Integration, Omnichannel, WebEx, IoT, Information Security, Data Center, Business Communications, Telecommunications e Audit and consulting</linkedin:speciality>
-        <linkedin:founded>2002</linkedin:founded>
-        <linkedin:type>Società privata non quotata</linkedin:type>
-        <linkedin:industry>Informatica e servizi</linkedin:industry>
-        <linkedin:about>CTI — COMMUNICATIONS. TECHNOLOGY. INNOVATIONS. Компания CTI – ведущий системный интегратор, поставщик ИT-решений и облачных услуг на территории России и стран СНГ. Входит в ТОП 40 крупнейших ИТ-компаний России.  Компания имеет более чем 18-летний опыт реализации и поддержки комплексных проектов различного масштаба и уровня сложности по таким направлениям как бизнес-коммуникации и контакт-центры, телекоммуникационные и сетевые решения, информационная безопасность, центры обработки и хранения данных, Интернет вещей, системы видеонаблюдения и аналитики, комплексный аутсорсинг.   CTI ориентируется на эффективное решение бизнес-задач клиента. Инновационные сервисы и услуги, которые предлагает CTI, позволяют оптимизировать бизнес-процессы заказчика и повысить экономическую эффективность, а также способствуют решению задач, связанных с качеством обслуживания клиентов, повышением их удовлетворенности и лояльности.</linkedin:about>
-        <linkedin:companySize>201-500 dipendenti</linkedin:companySize>
-        <linkedin:website>http://www.cti.ru</linkedin:website>
-        <linkedin:placeName>CTI - Communications.Technology.Innovations.</linkedin:placeName>
+        <linkedin:founded>2018</linkedin:founded>
+        <linkedin:type>Lavoratore autonomo</linkedin:type>
+        <linkedin:headquarter>Киев, Киевская</linkedin:headquarter>
+        <linkedin:industry>Commercio al dettaglio</linkedin:industry>
+        <linkedin:about>В нашем электронном каталоге вы найдете весь ассортимент производителя, а также самые лучшие аксессуары для iPhone, Mac, iPad, Apple Watch. Наша команда является преданными фанатами устройств из Купертино с многолетним стажем. Мы сможем ответить на все  Apple ​ вопросы и создать для Вас уникальную, самую полноценную экосистему на рынке персональной электроники от компании Apple.</linkedin:about>
+        <linkedin:companySize>2-10 dipendenti</linkedin:companySize>
+        <linkedin:website>http://www.macfan.com.ua</linkedin:website>
+        <linkedin:placeName>MACFAN</linkedin:placeName>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill>
@@ -1940,19 +2005,6 @@
     </linkedin:hasSkill>
   </linkedin:Person>
   <linkedin:Person rdf:ID="person0">
-    <linkedin:hasInterest>
-      <linkedin:Company rdf:ID="company7">
-        <linkedin:website>http://careers.twitter.com</linkedin:website>
-        <linkedin:founded>2006</linkedin:founded>
-        <linkedin:about>Twitter serves the public conversation because conversation is a force for good in the world. The opportunity to help the world connect, debate, learn, and solve problems is what draws us to careers at Twitter, and it’s what keeps us here.   What we offer:   Small but mighty teams who serve the public conversation in ways people feel across the world, every day; a flat, non-hierarchical org structure; the freedom to design your own path; space to innovate and make big contributions to Twitter’s future; respect and support of your identity and background, whatever it is; actual work-life balance, including growing opportunities for remote work and flex schedules (depending on the role).   What we ask for:   Vision, creativity, flexibility, honesty, and enthusiasm.   Visit careers.twitter.com to see open roles and find out how you can #JoinTheFlock. Follow us at @TwitterCareers to learn more about growing your career at Twitter.   #LoveWhereYouWork, wherever you work. Twitter has offices in:   U.S.: Atlanta, Boston, Boulder, Chicago, Cincinnati, Detroit, Los Angeles, Miami, New York, San Francisco (Headquarters), Seattle, Sunnyvale, Washington. D.C.  International: Bangalore, Berlin, Bogota, Brussels, Cologne, Dubai, Dublin, Hamburg, Hong Kong, Jakarta, London, Madrid, Manchester, Manila, Melbourne, Mexico City, Milan, Mumbai, New Delhi, Osaka, Paris, Rio de Janeiro, São Paulo, Singapore, Sydney, Seoul, Tokyo, Toronto, Vancouver</linkedin:about>
-        <linkedin:industry>Internet</linkedin:industry>
-        <linkedin:headquarter>San Francisco, CA</linkedin:headquarter>
-        <linkedin:placeName>Twitter</linkedin:placeName>
-        <linkedin:companySize>1.001-5.000 dipendenti</linkedin:companySize>
-        <linkedin:type>Società quotata</linkedin:type>
-        <linkedin:speciality>Real-time information</linkedin:speciality>
-      </linkedin:Company>
-    </linkedin:hasInterest>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill4">
         <linkedin:skillName>System Administration</linkedin:skillName>
@@ -1972,18 +2024,7 @@
       </linkedin:WorkingExperience>
     </linkedin:hasWorkingExperience>
     <linkedin:hasSkill rdf:resource="#skill5"/>
-    <linkedin:hasInterest>
-      <linkedin:Company rdf:ID="company5">
-        <linkedin:speciality>search, ads, mobile, android, online video, apps, machine learning, virtual reality, cloud, hardware, artificial intelligence, youtube e software</linkedin:speciality>
-        <linkedin:type>Società quotata</linkedin:type>
-        <linkedin:headquarter>Mountain View, CA</linkedin:headquarter>
-        <linkedin:industry>Internet</linkedin:industry>
-        <linkedin:about>A problem isn't truly solved until it's solved for all. Googlers build products that help create opportunities for everyone, whether down the street or across the globe. Bring your insight, imagination and a healthy disregard for the impossible. Bring everything that makes you unique. Together, we can build for everyone.  Check out our career opportunities at careers.google.com.</linkedin:about>
-        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
-        <linkedin:website>https://goo.gle/3m1IN7m</linkedin:website>
-        <linkedin:placeName>Google</linkedin:placeName>
-      </linkedin:Company>
-    </linkedin:hasInterest>
+    <linkedin:hasInterest rdf:resource="#company5"/>
     <linkedin:hasSkill rdf:resource="#skill11"/>
     <linkedin:hasSkill rdf:resource="#skill1"/>
     <linkedin:hasWorkingExperience>
@@ -2016,19 +2057,7 @@
         <linkedin:skillName>Apache</linkedin:skillName>
       </linkedin:Skill>
     </linkedin:hasSkill>
-    <linkedin:hasInterest>
-      <linkedin:Company rdf:ID="company6">
-        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
-        <linkedin:founded>2004</linkedin:founded>
-        <linkedin:website>http://www.facebook.com/careers</linkedin:website>
-        <linkedin:industry>Internet</linkedin:industry>
-        <linkedin:headquarter>Menlo Park, CA</linkedin:headquarter>
-        <linkedin:placeName>Facebook</linkedin:placeName>
-        <linkedin:about>Founded in 2004, Facebook’s mission is to give people the power to build community and bring the world closer together. Over 2 billion people use Facebook, Instagram, WhatsApp, or Messenger every month to stay connected with friends and family, to discover what’s going on in the world, and to share and express what matters to them.   Facebook is defined by our unique culture – one that rewards impact. We encourage people to be bold and solve the problems they care most about. We work in small teams and move fast to develop new products, constantly iterating. The phrase “this journey is 1% finished” reminds us that we’ve only begun to fulfill our mission.  As we evolve our journey to bring the world closer together, we stay true to the same core values to guide the way we work and the decisions we make every step of the way: be open, be bold, move fast, focus on impact, and build social value.  For a full listing of our jobs, visit http://www.facebook.com/careers  We created this space on LinkedIn to share information about careers at Facebook. This includes employee stories, current openings, and inside looks at particular teams and initiatives. We welcome relevant comments and discussion, so please be respectful. We reserve the right to moderate content, including off-topic, inaccurate, spam comments and posts.  If you are seeking support for issues related to your Facebook account, please reference our Help Center (https://www.facebook.com/help) or Help Community (https://www.facebook.com/help/community).</linkedin:about>
-        <linkedin:speciality>Connectivity, Artificial Intelligence, Virtual Reality, Machine Learning, Social Media, Augmented Reality, Marketing Science, Mobile Connectivity e Open Compute</linkedin:speciality>
-        <linkedin:type>Società quotata</linkedin:type>
-      </linkedin:Company>
-    </linkedin:hasInterest>
+    <linkedin:hasInterest rdf:resource="#company6"/>
     <linkedin:hasSkill>
       <linkedin:Skill rdf:ID="skill3">
         <linkedin:skillName>Linux System Administration</linkedin:skillName>
@@ -2108,7 +2137,19 @@
     </linkedin:hasWorkingExperience>
   </linkedin:Person>
   <linkedin:Person rdf:ID="person1">
-    <linkedin:hasInterest rdf:resource="#company16"/>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company16">
+        <linkedin:website>https://www.quanta.com/it</linkedin:website>
+        <linkedin:type>Società privata non quotata</linkedin:type>
+        <linkedin:industry>Selezione e ricerca di personale</linkedin:industry>
+        <linkedin:headquarter>Milano, Lombardia</linkedin:headquarter>
+        <linkedin:speciality>RICERCA E SELEZIONE, STAFF LEASING, FORMAZIONE, APPALTO DI SERVIZI, ORGANIZZAZIONE EVENTI, PAYROLL, DISTACCO INTERNAZIONALE, OUTPLACEMENT, Aerospaziale, cantieristica, ICT e energie</linkedin:speciality>
+        <linkedin:companySize>201-500 dipendenti</linkedin:companySize>
+        <linkedin:placeName>Quanta SpA</linkedin:placeName>
+        <linkedin:about>Una famiglia diventata Gruppo. Quanta dà nuova linfa alle risorse umane delle imprese perché sa creare opportunità di crescita e di successo.   Specializzazione e competenza sono da sempre la nostra mission per fornire soluzioni HR in linea con i vostri obiettivi. Dedichiamo attenzione all’evoluzione del mercato del lavoro, sviluppando servizi integrati che vanno dalla selezione del personale alla somministrazione di lavoro, dalla formazione all’outplacement, dalla consulenza all’outsourcing.</linkedin:about>
+        <linkedin:founded>1997</linkedin:founded>
+      </linkedin:Company>
+    </linkedin:hasInterest>
     <linkedin:hasSkill rdf:resource="#skill26"/>
     <linkedin:hasEducationExperience>
       <linkedin:EducationExperience rdf:ID="eduExp1">
@@ -2116,20 +2157,7 @@
         <linkedin:role>Scienze informatiche</linkedin:role>
       </linkedin:EducationExperience>
     </linkedin:hasEducationExperience>
-    <linkedin:hasInterest>
-      <linkedin:Company rdf:ID="company17">
-        <linkedin:headquarter>Roma, RM</linkedin:headquarter>
-        <linkedin:founded>2014</linkedin:founded>
-        <linkedin:website>https://www.theinnovationfactory.it/</linkedin:website>
-        <linkedin:about>The Innovation Factory: Digital Experience, Digital Life.   Affianchiamo le aziende B2C e B2B nel processo di trasformazione digitale prendendoci cura di ogni dettaglio.  Con un focus importante sulle piattaforme di eCommerce, The Innovation Factory rappresenta un Hub digitale che fornisce soluzioni innovative e tecnologie custom per andare incontro alle esigenze specifiche di ogni cliente.   Digital Sales, Experience &amp; Life: sono questi i concetti principali che riassumono la nostra mission.   L’esperienza decennale, unita ad un team di giovani professionisti con un elevato profilo tecnico, assicura standard lavorativi di altissimo livello, a misura delle aspettative del mercato e del Futuro. L’intero team lavora in modalità Agile, garantendo risultati rapidi e al passo con le necessità dello scenario odierno.   CERTIFICAZIONI Siamo partner Certificati Adobe Magento, Microsoft ed esperti nell'implementazione delle principali piattaforme di eCommerce.   Come Magento Solution Partner vantiamo la grande competenza di un Team composto da sviluppatori certificati in grado di rispondere a ogni domanda sulle soluzioni Magento based, soddisfando gli obiettivi funzionali e di performance con un impatto diretto sul risultato economico del Cliente.  Supportiamo le aziende nell’intero ciclo della service creation, ma anche dopo la messa online con servizi avanzati di supporto tecnico continuativo.  SOLUZIONI - eCommerce - Mobile - Enterprise Solutions</linkedin:about>
-        <linkedin:industry>Informatica e servizi</linkedin:industry>
-        <linkedin:companySize>11-50 dipendenti</linkedin:companySize>
-        <linkedin:placeName>The Innovation Factory</linkedin:placeName>
-        <linkedin:type>Società privata non quotata</linkedin:type>
-        <linkedin:phone>+39066534735 Il numero di telefono è +39066534735</linkedin:phone>
-        <linkedin:speciality>Progettazione e Sviluppo E-Commerce Magento, Servizi IT, Consulenza eCommerce Magento, Mobile strategy, ECommerce B2B, Digital Trasformation, Digital Sales, Smart Working, E-Commerce Accelerator e Digital Marketing</linkedin:speciality>
-      </linkedin:Company>
-    </linkedin:hasInterest>
+    <linkedin:hasInterest rdf:resource="#company17"/>
     <linkedin:hasSkill rdf:resource="#skill28"/>
     <linkedin:hasSkill rdf:resource="#skill23"/>
     <linkedin:hasSkill rdf:resource="#skill15"/>
@@ -2137,16 +2165,16 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp9">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company12">
-            <linkedin:founded>1994</linkedin:founded>
+          <linkedin:Company rdf:ID="company11">
             <linkedin:headquarter>Ponte San Pietro , BG</linkedin:headquarter>
+            <linkedin:companySize>501-1.000 dipendenti</linkedin:companySize>
             <linkedin:industry>Informatica e servizi</linkedin:industry>
             <linkedin:type>Società privata non quotata</linkedin:type>
-            <linkedin:companySize>501-1.000 dipendenti</linkedin:companySize>
+            <linkedin:founded>1994</linkedin:founded>
             <linkedin:about>Aruba S.p.A., fondata nel 1994, è la prima società in Italia per i servizi Web. La società propone 4 principali ambiti di servizi: Hosting e Domini, e-Security, Cloud e servizi Data Center. Attiva sui principali mercati europei quali Francia, Inghilterra e Germania, può anche vantare la leadership in Repubblica Ceca e Slovacca e una presenza consolidata in Polonia e Ungheria grazie ad un network europeo di data center.  Aruba gestisce 2,6 milioni di domini, 8,6 milioni di caselle email, 6,1 milioni di caselle PEC, 130.000 server tra fisici e virtuali ed un totale di circa 5 milioni di clienti. Fornisce servizi di hosting, cloud pubblico e privato, housing e colocation, server dedicati, firma digitale, conservazione sostitutiva, fatturazione elettronica, posta elettronica certificata, certificati SSL e produce smart-card.  Attraverso Aruba Business, nata dal 2015, mette a disposizione tutti i propri servizi ad una vasta rete di IT partner e tramite il suo brand Pratiche.it offre servizi di recupero e consegna di documenti in tutta Italia. Dal 2016 è il Registro ufficiale della prestigiosa estensione  ​.cloud ​.  La divisione Aruba Enterprise, da oltre 10 anni, offre soluzioni Cloud, Data Center e Trust Services alle imprese e alle Pubblica Amministrazione, progettando, implementando e gestendo soluzioni IT altamente personalizzate.</linkedin:about>
             <linkedin:website>http://www.aruba.it</linkedin:website>
-            <linkedin:placeName>Aruba S.p.A.</linkedin:placeName>
             <linkedin:speciality>Hosting, Registrazione domini, Ecommerce, PEC, Conservazione sostitutiva, Fatturazione elettronica, Firma digitale, Smart Card, Cloud Computing, Public e Private, Disaster Recovery, Business Continuity, data center, servizi per pubblica amministrazione, Hybrid cloud, website builder, private cloud, certified email e web marketing</linkedin:speciality>
+            <linkedin:placeName>Aruba S.p.A.</linkedin:placeName>
           </linkedin:Company>
         </linkedin:happenedAt>
         <linkedin:endDate>2007</linkedin:endDate>
@@ -2170,7 +2198,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp7">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company10">
+          <linkedin:Company rdf:ID="company9">
             <linkedin:placeName>Poste</linkedin:placeName>
           </linkedin:Company>
         </linkedin:happenedAt>
@@ -2184,21 +2212,21 @@
     <linkedin:hasSkill rdf:resource="#skill27"/>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company14">
-        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
-        <linkedin:industry>Risorse umane</linkedin:industry>
-        <linkedin:type>Società quotata</linkedin:type>
-        <linkedin:founded>1960</linkedin:founded>
-        <linkedin:about>Randstad is the global leader in the HR services industry. We support people and organizations in realizing their true potential by combining the power of today’s technology with our passion for people. We call it Human Forward. In 2020, we helped nearly two million candidates find a meaningful job with more than 236,000 clients. Furthermore, we trained close to 350,000 people. Randstad is active in 38 markets around the world and has a top-three position in almost half of these. In 2020, Randstad had on average 34,680 corporate employees and generated revenue of € 20.7 billion. Randstad was founded in 1960 and is headquartered in Diemen, the Netherlands. Randstad N.V. is listed on the NYSE Euronext.</linkedin:about>
-        <linkedin:placeName>Randstad</linkedin:placeName>
-        <linkedin:speciality>Staffing, Professionals, Search &amp; Selection, HR Solutions, Inhouse Services, MSP, RPO e Payroll services</linkedin:speciality>
-        <linkedin:website>http://www.randstad.com</linkedin:website>
-        <linkedin:headquarter>Diemen, Noord-Holland</linkedin:headquarter>
+        <linkedin:founded>1994</linkedin:founded>
+        <linkedin:about>Ci occupiamo di consulenza informatica ed ingegneria dei sistemi da oltre 15 anni.  Personale qualificato e certificato, assieme ad una solida esperienza tecnica e gestionale, ci consentono di proporre soluzioni evolute che mirano alla valorizzazione degli investimenti ed alla massima efficacia.</linkedin:about>
+        <linkedin:type>Società privata non quotata</linkedin:type>
+        <linkedin:companySize>11-50 dipendenti</linkedin:companySize>
+        <linkedin:speciality>consulenza informatica. sicurezza, sistemi e networking, software intranet ed internet, soluzioni per aziende e Microsoft</linkedin:speciality>
+        <linkedin:headquarter>Firenze, FIRENZE</linkedin:headquarter>
+        <linkedin:industry>Servizi informativi</linkedin:industry>
+        <linkedin:placeName>TECNOLINK</linkedin:placeName>
+        <linkedin:website>http://www.tecnolink.it</linkedin:website>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp8">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company11">
+          <linkedin:Company rdf:ID="company10">
             <linkedin:placeName>Olisistem Start</linkedin:placeName>
           </linkedin:Company>
         </linkedin:happenedAt>
@@ -2209,7 +2237,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp5">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company8">
+          <linkedin:Company rdf:ID="company7">
             <linkedin:placeName>Start3k</linkedin:placeName>
           </linkedin:Company>
         </linkedin:happenedAt>
@@ -2224,15 +2252,15 @@
     </linkedin:hasSkill>
     <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company15">
-        <linkedin:speciality>Google Cloud Premier Partner, G Suite, Asset Management, G Suite Business, Google Cloud Platform, Cloud Computing, Digital Marketing, IoT, Change Management e Machine Learning</linkedin:speciality>
-        <linkedin:type>Società privata non quotata</linkedin:type>
-        <linkedin:about>Realizziamo progetti di trasformazione digitale volti a rendere le aziende posti migliori in cui vivere e lavorare. Costruiamo ecosistemi in cui tecnologie, persone, dati e processi si uniscono in simbiosi perfetta.   Diamo forma all’innovazione per abilitare nuovi orizzonti di work transformation, cloud transformation, data management e che sfruttano le enormi potenzialità dell’artificial intelligence e del machine learning.    Abbiamo ideato il Social Process Management, la metodologia che unisce l'intuitività della comunicazione social alla gestione dei processi, abilitata grazie alla piattaforma Interacta.  Grazie ai nostri numerosi progetti nelle principali aziende italiane, siamo diventati il primo Premier Partner in Europa ad aver ottenuto tre certificazioni Google Cloud: Work Transformation Enterprise, Machine Learning, IT Infrastructure.   Tra i molti risultati dell’efficacia del nostro lavoro in materia di innovazione, possiamo annoverare la vittoria nei Digital360 Awards 2020 per la categoria Intelligenza Artificiale e Machine Learning e del Premio Innovazione Smau 2020 per il settore multiutility.  Per integrare ricerca scientifica e business, abbiamo stretto partnership con università e centri di ricerca, come l’Osservatorio Intelligenza Artificiale del Politecnico di Milano e la Bologna Business School.   Crediamo che l’ecosistema aziendale contamini e si faccia contaminare dall’ambiente circostante: sostenibilità, sviluppo sociale e del territorio, partecipazione alla cultura, all’arte e alla musica sono valori imprescindibili per noi e per coloro che, come noi e con noi, vogliono immaginare e progettare cose entusiasmanti.</linkedin:about>
-        <linkedin:companySize>51-200 dipendenti</linkedin:companySize>
-        <linkedin:founded>2005</linkedin:founded>
-        <linkedin:website>http://www.injenia.it</linkedin:website>
-        <linkedin:industry>Informatica e servizi</linkedin:industry>
-        <linkedin:placeName>Injenia</linkedin:placeName>
-        <linkedin:headquarter>Bologna, Emilia Romagna</linkedin:headquarter>
+        <linkedin:about>Randstad is the global leader in the HR services industry. We support people and organizations in realizing their true potential by combining the power of today’s technology with our passion for people. We call it Human Forward. In 2020, we helped nearly two million candidates find a meaningful job with more than 236,000 clients. Furthermore, we trained close to 350,000 people. Randstad is active in 38 markets around the world and has a top-three position in almost half of these. In 2020, Randstad had on average 34,680 corporate employees and generated revenue of € 20.7 billion. Randstad was founded in 1960 and is headquartered in Diemen, the Netherlands. Randstad N.V. is listed on the NYSE Euronext.</linkedin:about>
+        <linkedin:headquarter>Diemen, Noord-Holland</linkedin:headquarter>
+        <linkedin:website>http://www.randstad.com</linkedin:website>
+        <linkedin:type>Società quotata</linkedin:type>
+        <linkedin:industry>Risorse umane</linkedin:industry>
+        <linkedin:placeName>Randstad</linkedin:placeName>
+        <linkedin:speciality>Staffing, Professionals, Search &amp; Selection, HR Solutions, Inhouse Services, MSP, RPO e Payroll services</linkedin:speciality>
+        <linkedin:companySize>Più di 10.001 dipendenti</linkedin:companySize>
+        <linkedin:founded>1960</linkedin:founded>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill>
@@ -2243,7 +2271,7 @@
     <linkedin:hasWorkingExperience>
       <linkedin:WorkingExperience rdf:ID="wrkExp6">
         <linkedin:happenedAt>
-          <linkedin:Company rdf:ID="company9"/>
+          <linkedin:Company rdf:ID="company8"/>
         </linkedin:happenedAt>
         <linkedin:endDate>Sep 2021</linkedin:endDate>
         <linkedin:startDate>2000</linkedin:startDate>
@@ -2252,32 +2280,33 @@
     </linkedin:hasWorkingExperience>
     <linkedin:firstName>Paolo</linkedin:firstName>
     <linkedin:hasSkill rdf:resource="#skill29"/>
+    <linkedin:hasInterest>
+      <linkedin:Company rdf:ID="company12">
+        <linkedin:founded>2014</linkedin:founded>
+        <linkedin:about>The Innovation Factory: Digital Experience, Digital Life.   Affianchiamo le aziende B2C e B2B nel processo di trasformazione digitale prendendoci cura di ogni dettaglio.  Con un focus importante sulle piattaforme di eCommerce, The Innovation Factory rappresenta un Hub digitale che fornisce soluzioni innovative e tecnologie custom per andare incontro alle esigenze specifiche di ogni cliente.   Digital Sales, Experience &amp; Life: sono questi i concetti principali che riassumono la nostra mission.   L’esperienza decennale, unita ad un team di giovani professionisti con un elevato profilo tecnico, assicura standard lavorativi di altissimo livello, a misura delle aspettative del mercato e del Futuro. L’intero team lavora in modalità Agile, garantendo risultati rapidi e al passo con le necessità dello scenario odierno.   CERTIFICAZIONI Siamo partner Certificati Adobe Magento, Microsoft ed esperti nell'implementazione delle principali piattaforme di eCommerce.   Come Magento Solution Partner vantiamo la grande competenza di un Team composto da sviluppatori certificati in grado di rispondere a ogni domanda sulle soluzioni Magento based, soddisfando gli obiettivi funzionali e di performance con un impatto diretto sul risultato economico del Cliente.  Supportiamo le aziende nell’intero ciclo della service creation, ma anche dopo la messa online con servizi avanzati di supporto tecnico continuativo.  SOLUZIONI - eCommerce - Mobile - Enterprise Solutions</linkedin:about>
+        <linkedin:website>https://www.theinnovationfactory.it/</linkedin:website>
+        <linkedin:headquarter>Roma, RM</linkedin:headquarter>
+        <linkedin:industry>Informatica e servizi</linkedin:industry>
+        <linkedin:type>Società privata non quotata</linkedin:type>
+        <linkedin:placeName>The Innovation Factory</linkedin:placeName>
+        <linkedin:companySize>11-50 dipendenti</linkedin:companySize>
+        <linkedin:speciality>Progettazione e Sviluppo E-Commerce Magento, Servizi IT, Consulenza eCommerce Magento, Mobile strategy, ECommerce B2B, Digital Trasformation, Digital Sales, Smart Working, E-Commerce Accelerator e Digital Marketing</linkedin:speciality>
+        <linkedin:phone>+39066534735 Il numero di telefono è +39066534735</linkedin:phone>
+      </linkedin:Company>
+    </linkedin:hasInterest>
     <linkedin:hasSkill rdf:resource="#skill16"/>
     <linkedin:hasSkill rdf:resource="#skill0"/>
     <linkedin:hasInterest>
-      <linkedin:Company rdf:ID="company18">
-        <linkedin:type>Società privata non quotata</linkedin:type>
-        <linkedin:speciality>RICERCA E SELEZIONE, STAFF LEASING, FORMAZIONE, APPALTO DI SERVIZI, ORGANIZZAZIONE EVENTI, PAYROLL, DISTACCO INTERNAZIONALE, OUTPLACEMENT, Aerospaziale, cantieristica, ICT e energie</linkedin:speciality>
-        <linkedin:industry>Selezione e ricerca di personale</linkedin:industry>
-        <linkedin:headquarter>Milano, Lombardia</linkedin:headquarter>
-        <linkedin:placeName>Quanta SpA</linkedin:placeName>
-        <linkedin:companySize>201-500 dipendenti</linkedin:companySize>
-        <linkedin:about>Una famiglia diventata Gruppo. Quanta dà nuova linfa alle risorse umane delle imprese perché sa creare opportunità di crescita e di successo.   Specializzazione e competenza sono da sempre la nostra mission per fornire soluzioni HR in linea con i vostri obiettivi. Dedichiamo attenzione all’evoluzione del mercato del lavoro, sviluppando servizi integrati che vanno dalla selezione del personale alla somministrazione di lavoro, dalla formazione all’outplacement, dalla consulenza all’outsourcing.</linkedin:about>
-        <linkedin:website>https://www.quanta.com/it</linkedin:website>
-        <linkedin:founded>1997</linkedin:founded>
-      </linkedin:Company>
-    </linkedin:hasInterest>
-    <linkedin:hasInterest>
       <linkedin:Company rdf:ID="company13">
-        <linkedin:founded>1994</linkedin:founded>
         <linkedin:type>Società privata non quotata</linkedin:type>
-        <linkedin:website>http://www.tecnolink.it</linkedin:website>
-        <linkedin:companySize>11-50 dipendenti</linkedin:companySize>
-        <linkedin:placeName>TECNOLINK</linkedin:placeName>
-        <linkedin:speciality>consulenza informatica. sicurezza, sistemi e networking, software intranet ed internet, soluzioni per aziende e Microsoft</linkedin:speciality>
-        <linkedin:about>Ci occupiamo di consulenza informatica ed ingegneria dei sistemi da oltre 15 anni.  Personale qualificato e certificato, assieme ad una solida esperienza tecnica e gestionale, ci consentono di proporre soluzioni evolute che mirano alla valorizzazione degli investimenti ed alla massima efficacia.</linkedin:about>
-        <linkedin:headquarter>Firenze, FIRENZE</linkedin:headquarter>
-        <linkedin:industry>Servizi informativi</linkedin:industry>
+        <linkedin:speciality>Google Cloud Premier Partner, G Suite, Asset Management, G Suite Business, Google Cloud Platform, Cloud Computing, Digital Marketing, IoT, Change Management e Machine Learning</linkedin:speciality>
+        <linkedin:companySize>51-200 dipendenti</linkedin:companySize>
+        <linkedin:about>Realizziamo progetti di trasformazione digitale volti a rendere le aziende posti migliori in cui vivere e lavorare. Costruiamo ecosistemi in cui tecnologie, persone, dati e processi si uniscono in simbiosi perfetta.   Diamo forma all’innovazione per abilitare nuovi orizzonti di work transformation, cloud transformation, data management e che sfruttano le enormi potenzialità dell’artificial intelligence e del machine learning.    Abbiamo ideato il Social Process Management, la metodologia che unisce l'intuitività della comunicazione social alla gestione dei processi, abilitata grazie alla piattaforma Interacta.  Grazie ai nostri numerosi progetti nelle principali aziende italiane, siamo diventati il primo Premier Partner in Europa ad aver ottenuto tre certificazioni Google Cloud: Work Transformation Enterprise, Machine Learning, IT Infrastructure.   Tra i molti risultati dell’efficacia del nostro lavoro in materia di innovazione, possiamo annoverare la vittoria nei Digital360 Awards 2020 per la categoria Intelligenza Artificiale e Machine Learning e del Premio Innovazione Smau 2020 per il settore multiutility.  Per integrare ricerca scientifica e business, abbiamo stretto partnership con università e centri di ricerca, come l’Osservatorio Intelligenza Artificiale del Politecnico di Milano e la Bologna Business School.   Crediamo che l’ecosistema aziendale contamini e si faccia contaminare dall’ambiente circostante: sostenibilità, sviluppo sociale e del territorio, partecipazione alla cultura, all’arte e alla musica sono valori imprescindibili per noi e per coloro che, come noi e con noi, vogliono immaginare e progettare cose entusiasmanti.</linkedin:about>
+        <linkedin:website>http://www.injenia.it</linkedin:website>
+        <linkedin:industry>Informatica e servizi</linkedin:industry>
+        <linkedin:placeName>Injenia</linkedin:placeName>
+        <linkedin:founded>2005</linkedin:founded>
+        <linkedin:headquarter>Bologna, Emilia Romagna</linkedin:headquarter>
       </linkedin:Company>
     </linkedin:hasInterest>
     <linkedin:hasSkill>
