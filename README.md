@@ -1,4 +1,4 @@
-# Linkedin Web Scraping: creating a ontology for Sematic Web 
+# Linkedin Web Scraping: creating a ontology for Semantic Web 
 ## Authors: Lorenzo Mandelli
 #### Università degli Studi di Firenze
 
