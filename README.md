@@ -33,6 +33,6 @@ The graph is generated starting from a set of LinkedIn profiles resulting from a
 
 ## Limitations
 
-Currently the software manages a conspicuous if limited number of entities present in the Linkedin application. The management of *Linkedin Groups, Posts, Videos* and *Jobs* will be implemented in future updates. The outline of the complete ontology is already available at this [Link](https://github.com/divanoLetto/LinkedinRDF/blob/main/images/OntSchemaAdv.png "Schema avanzato").
+Currently the software manages a conspicuous but limited number of entities present in the Linkedin application. The management of *Linkedin Groups, Posts, Videos* and *Jobs* will be implemented in future updates. The outline of the complete ontology is already available at this [Link](https://github.com/divanoLetto/LinkedinRDF/blob/main/images/OntSchemaAdv.png "Schema avanzato").
 
 ![Linkedin example](images/linkedin.png "linkedin example")
